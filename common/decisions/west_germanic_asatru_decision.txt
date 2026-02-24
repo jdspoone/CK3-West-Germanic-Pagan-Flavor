@@ -1,0 +1,57 @@
+west_germanic_to_asatru_decision = {
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_convert_faith.dds"
+    }
+
+    desc = west_germanic_to_asatru_decision_desc
+    selection_tooltip = west_germanic_to_asatru_decision_tooltip
+    confirm_text = west_germanic_to_asatru_decision_confirm
+
+	decision_group_type = major
+
+    is_shown = {
+        
+        # This decision should only be visible to Christian and West Germanic rulers in England during the Tribal Era
+        culture = { has_cultural_pillar = heritage_west_germanic }
+        religion = religion:christianity_religion
+        is_landed = yes
+		any_held_title = {
+			title_tier = county
+			title_province = { geographical_region = world_europe_west_britannia }
+		}
+		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
+    }
+
+    is_valid = {
+
+        culture = { has_cultural_pillar = heritage_west_germanic }
+        religion = religion:christianity_religion
+        is_landed = yes
+		any_held_title = {
+			title_tier = county
+			title_province = { geographical_region = world_europe_west_britannia }
+		}
+		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
+    }
+
+    cost = {
+        piety = 50
+        prestige = 50
+    }
+
+    effect = {
+        set_character_faith = faith:norse_pagan
+
+        every_courtier = {
+            limit = {
+                NOT = { has_trait = zealous }
+            }
+            set_character_faith = faith:norse_pagan
+        }
+    }
+
+    cooldown = { years = 10 }
+
+    ai_potential = { always = no }
+    ai_check_interval = 0
+}
