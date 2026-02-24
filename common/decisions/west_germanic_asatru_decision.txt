@@ -55,6 +55,63 @@ west_germanic_to_asatru_decision = {
 
     cooldown = { years = 10 }
 
-    ai_potential = { always = no }
-    ai_check_interval = 0
+    ai_potential = {
+        # Limit the decision to non-zealous characters
+        NOT = { has_trait = zealous }
+    }
+
+    ai_will_do = {
+        base = 20
+
+        # Brave, Wrathful, Ambitious, Vengeful, Greedy and Cynical rulers are more likely to take this decision
+        modifier = {
+            factor = 2
+            has_trait = brave
+        }
+
+        modifier = {
+            factor = 2
+            has_trait = wrathful
+        }
+
+        modifier = {
+            factor = 2
+            has_trait = ambitious
+        }
+
+        modifier = {
+            factor = 2
+            has_trait = vengeful
+        }
+
+        modifier = {
+            factor = 2
+            has_trait = greedy
+        }
+
+        modified = {
+            factor = 2
+            has_trait = cynical
+        }
+
+        # Whereas Craven, Content, and Forgiving rulers are less likely to take the decision
+        modifier = {
+            factor 0.5
+            has_trait = craven
+        }
+
+        modifier = {
+            factor = 0.5
+            has_trait = content
+        }
+
+        modifier = {
+            factor = 0.5
+            has_trait = forgiving
+        }
+    }
+
+
+    # The AI should check this decision every 24 months
+    ai_check_interval = 24
 }
