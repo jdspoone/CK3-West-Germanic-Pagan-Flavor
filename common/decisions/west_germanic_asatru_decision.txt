@@ -34,8 +34,8 @@ west_germanic_to_asatru_decision = {
     }
 
     cost = {
-        piety = 50
-        prestige = 50
+        piety = 150
+        prestige = 150
     }
 
     effect = {
