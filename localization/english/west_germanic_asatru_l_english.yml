@@ -1,9 +1,9 @@
 ﻿l_english:
 
- west_germanic_to_asatru_decision: "Convert to Ásatrú"
+ west_germanic_to_asatru_decision: "Return to the Old Gods"
 
- west_germanic_to_asatru_decision_desc: "Inspired by the presence of North Germanic Ásatrú rulers in England, you decide to abandon Christianity and embrace the old gods of the North."
+ west_germanic_to_asatru_decision_desc: "The foreign Christ-god has left us weak and vulnerable. It is time to return to the faith of my ancestors!"
 
- west_germanic_to_asatru_decision_tooltip: "Requires: West Germanic heritage, Christian faith, land in England, and at least one North Germanic Ásatrú ruler also holding land in England."
+ west_germanic_to_asatru_decision_tooltip: "This decision is only available to Christian West Germanic rulers with a Duchy-tier primary title within England during the Tribal era."
 
- west_germanic_to_asatru_decision_confirm: "Convert to Ásatrú"
+ west_germanic_to_asatru_decision_confirm: "Return to the Old Gods"
