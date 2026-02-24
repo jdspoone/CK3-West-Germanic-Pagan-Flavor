@@ -32,8 +32,7 @@ west_germanic_to_asatru_decision = {
         custom_tooltip = {
             text = west_germanic_to_asatru_duchy_req_tooltip
             primary_title = {
-                title_tier = duchy
-                OR {
+                OR = {
                     de_jure_liege = title:k_england
                     de_jure_liege = title:k_scotland
                 }
