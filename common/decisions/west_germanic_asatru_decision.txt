@@ -27,8 +27,13 @@ west_germanic_to_asatru_decision = {
         culture = { has_cultural_pillar = heritage_west_germanic }
         religion = religion:christianity_religion
         is_landed = yes
-        primary_title = {
-            de_jure_liege = title:k_england
+
+        # Use a custom tooltip to explain the duchy requirement more clearly
+        custom_tooltip = {
+            text = west_germanic_to_asatru_duchy_req_tooltip
+            primary_title = {
+                de_jure_liege = title:k_england
+            }
         }
 		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
