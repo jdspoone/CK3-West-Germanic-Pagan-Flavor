@@ -89,14 +89,14 @@ west_germanic_to_asatru_decision = {
             has_trait = greedy
         }
 
-        modified = {
+        modifier = {
             factor = 2
             has_trait = cynical
         }
 
-        # Whereas Craven, Content, and Forgiving rulers are less likely to take the decision
+        # Whereas Craven, Content, Humble, Compassionate, and Forgiving rulers are less likely to take the decision
         modifier = {
-            factor 0.5
+            factor = 0.5
             has_trait = craven
         }
 
@@ -107,11 +107,21 @@ west_germanic_to_asatru_decision = {
 
         modifier = {
             factor = 0.5
+            has_trait = humble
+        }
+
+        modifier = {
+            factor = 0.5
+            has_trait = compassionate
+        }
+
+        modifier = {
+            factor = 0.5
             has_trait = forgiving
         }
     }
 
-
+    
     # The AI should check this decision every 24 months
     ai_check_interval = 24
 }
