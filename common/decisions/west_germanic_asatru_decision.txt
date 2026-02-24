@@ -23,14 +23,17 @@ west_germanic_to_asatru_decision = {
     }
 
     is_valid = {
-
+        # This decision is only available for West Germanic Christians
         culture = { has_cultural_pillar = heritage_west_germanic }
         religion = religion:christianity_religion
+        
+        # Whose primary title is a duchy in England
         is_landed = yes
-		any_held_title = {
-			title_tier = county
-			title_province = { geographical_region = world_europe_west_britannia }
-		}
+        primary_title = {
+            de_jure_liege = title:k_england
+        }
+
+        # During the Tribal Era
 		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
 
