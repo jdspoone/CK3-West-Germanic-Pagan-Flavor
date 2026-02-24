@@ -10,9 +10,8 @@ west_germanic_to_asatru_decision = {
 
 	decision_group_type = minor
 
+    # This decision should be visible to Christian West Germanic rulers in England during the Tribal Era
     is_shown = {
-        
-        # This decision should only be visible to Christian and West Germanic rulers in England during the Tribal Era
         culture = { has_cultural_pillar = heritage_west_germanic }
         religion = religion:christianity_religion
         is_landed = yes
@@ -23,18 +22,14 @@ west_germanic_to_asatru_decision = {
 		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
 
+    # This decision is only available for West Germanic Christians whose primary title is a duchy in England during the Tribal era
     is_valid = {
-        # This decision is only available for West Germanic Christians
         culture = { has_cultural_pillar = heritage_west_germanic }
         religion = religion:christianity_religion
-        
-        # Whose primary title is a duchy in England
         is_landed = yes
         primary_title = {
             de_jure_liege = title:k_england
         }
-
-        # During the Tribal Era
 		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
 
@@ -44,8 +39,10 @@ west_germanic_to_asatru_decision = {
     }
 
     effect = {
+        # The ruler converts to Asatru
         set_character_faith = faith:norse_pagan
 
+        # All non-zealous courtiers will convert as well
         every_courtier = {
             limit = {
                 NOT = { has_trait = zealous }
@@ -57,7 +54,7 @@ west_germanic_to_asatru_decision = {
     cooldown = { years = 10 }
 
     ai_potential = {
-        # Limit the decision to non-zealous characters
+        # Limit the decision to non-zealous AI rulers
         NOT = { has_trait = zealous }
     }
 
