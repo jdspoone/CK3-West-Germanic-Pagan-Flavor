@@ -1,6 +1,7 @@
 west_germanic_to_asatru_decision = {
+
     picture = {
-        reference = "gfx/interface/illustrations/decisions/decision_convert_faith.dds"
+        reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
     }
 
     desc = west_germanic_to_asatru_decision_desc
