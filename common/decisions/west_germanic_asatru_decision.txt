@@ -10,7 +10,7 @@ west_germanic_to_asatru_decision = {
 
 	decision_group_type = minor
 
-    # This decision should be visible to Christian West Germanic rulers in England during the Tribal Era
+    # This decision should be visible to Christian West Germanic rulers in England or Scotland during the Tribal Era
     is_shown = {
         culture = { has_cultural_pillar = heritage_west_germanic }
         religion = religion:christianity_religion
@@ -22,7 +22,7 @@ west_germanic_to_asatru_decision = {
 		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
 
-    # This decision is only available for West Germanic Christians whose primary title is a duchy in England during the Tribal era
+    # This decision is only available for West Germanic Christians whose primary title is a duchy in England or Scotland during the Tribal era
     is_valid = {
         culture = { has_cultural_pillar = heritage_west_germanic }
         religion = religion:christianity_religion
@@ -32,7 +32,11 @@ west_germanic_to_asatru_decision = {
         custom_tooltip = {
             text = west_germanic_to_asatru_duchy_req_tooltip
             primary_title = {
-                de_jure_liege = title:k_england
+                title_tier = duchy
+                OR {
+                    de_jure_liege = title:k_england
+                    de_jure_liege = title:k_scotland
+                }
             }
         }
 		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
