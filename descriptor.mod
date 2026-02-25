@@ -1,4 +1,4 @@
-version="1.0.1"
+version="1.0.0"
 tags={
 	"Decisions"
 	"Religion"
@@ -6,5 +6,4 @@ tags={
 	"1.18 'Crane'"
 }
 name="West Germanic Pagan Flavor"
-picture="thumbnail.png"
 supported_version="1.18.*"
