@@ -7,3 +7,4 @@ tags={
 }
 name="West Germanic Pagan Flavor"
 supported_version="1.18.*"
+picture="thumbnail.png"
