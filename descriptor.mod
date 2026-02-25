@@ -1,9 +1,10 @@
-version="0.0.1"
+version="1.0.1"
 tags={
 	"Decisions"
 	"Religion"
 	"Culture"
 	"1.18 'Crane'"
 }
-name="Anglo Decisions"
+name="West Germanic Pagan Flavor"
+picture="thumbnail.png"
 supported_version="1.18.*"
