@@ -10,4 +10,8 @@
 
 west_germanic_to_asatru_duchy_req_tooltip: "Your primary title is a duchy within the de jure Kingdoms of England or Scotland"
 
-west_germanic_to_asatru_toast_title: "Converted to Ásatrú"
+west_germanic_conversion_event_title: "Converted to Ásatrú"
+
+west_germanic_conversion_event_desc: "I have cast aside the Christian faith and embraced of the old gods of my people!"
+
+west_germanic_conversion_event_ok: "Woden guides me!"
