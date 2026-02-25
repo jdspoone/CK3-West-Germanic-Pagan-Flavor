@@ -57,6 +57,12 @@ west_germanic_to_asatru_decision = {
             }
             set_character_faith = faith:norse_pagan
         }
+
+        send_interface_toast = {
+            type = event_toast_effect_neutral
+            title = west_germanic_to_asatru_toast_title
+            left_icon = root
+        }
     }
 
     cooldown = { years = 10 }
