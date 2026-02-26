@@ -1,4 +1,22 @@
+Improve Steam Workshop page description
+    -Make use of Markdown script...
+
 West Germanic Christian to Asatru decision:
 1. Extend availability to include independent count tier rulers
 
 Add Anglo-Saxon specific Germanic faith
+    - Holy sites should be different than North Germanic Paganism
+        -Lejre (re. Beowulf)
+        -Paderborn (why not...)
+        -Kent/Canterbury (re death of Horsa, also can then easily use Canterbury Cathedral...)
+        -
+
+Include support for Medieval Arts
+    -West Germanics should be able to use Christian-specific special buildings within England
+        -accomplished via cultural heritage or religious syncretism...
+
+Add my own special buildings (obviously without 3D graphics for now...)
+    -Raedwald's barrow in East Anglia
+
+Ensure compatibility with Anglo Saxon Flavorization
+    -Shouldn't be any issues, but good to confirm...
