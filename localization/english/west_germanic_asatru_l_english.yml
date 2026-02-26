@@ -8,7 +8,11 @@ west_germanic_conversion_decision_tooltip: "Convert to Asatru, the native faith 
 
 west_germanic_conversion_decision_confirm: "Return to the Old Gods"
 
-west_germanic_conversion_duchy_req_tooltip: "Your primary title is a duchy within the de jure Kingdoms of England or Scotland"
+west_germanic_conversion_title_count_tier_req: "You are an independent Count-tier ruler"
+
+west_germanic_conversion_title_duke_tier_req: "You are a Duke-tier ruler"
+
+west_germanic_conversion_location_req_tooltip: "Your primary title is within the de jure Kingdom of England or Scotland"
 
 west_germanic_conversion_event_title: "Converted to Ásatrú"
 

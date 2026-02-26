@@ -2,8 +2,6 @@ Improve Steam Workshop page description
     -Make use of Markdown script...
 
 West Germanic Christian to Asatru decision:
-    -Improve validity conditions for decision
-        -Include independent count-tier rulers
     -Improve logic for AI choosing this decision
         -Finetune base decision chance and modifiers
         -Increased chance to convert if liege is Asatru

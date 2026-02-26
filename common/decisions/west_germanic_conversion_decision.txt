@@ -20,22 +20,58 @@ west_germanic_conversion_decision = {
 		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
 
-    # This decision is only available for West Germanic Christians whose primary title is a duchy in England or Scotland during the Tribal era
     is_valid = {
+        # West Germanic Heritage
         culture = { has_cultural_pillar = heritage_west_germanic }
+
+        # Christian Religion
         religion = religion:christianity_religion
+
+        # Landed Ruler
         is_landed = yes
 
-        # Use a custom tooltip to explain the duchy requirement more clearly
+        # Independent count, or duke
+        OR = {
+            custom_tooltip = {
+                text = west_germanic_conversion_title_count_tier_req
+                AND = {
+                    primary_title.tier = tier_county
+                    is_independent_ruler = yes
+                }
+            }
+
+            custom_tooltip = {
+                text = west_germanic_conversion_title_duke_tier_req
+                primary_title.tier = tier_duchy
+            }
+        }
+
+        # Primary title within England or Scotland
         custom_tooltip = {
-            text = west_germanic_conversion_duchy_req_tooltip
-            primary_title = {
-                OR = {
-                    de_jure_liege = title:k_england
-                    de_jure_liege = title:k_scotland
+            text = west_germanic_conversion_location_req_tooltip
+
+            OR = {
+                # County within England or Scotland
+                primary_title = {
+                    de_jure_liege = {
+                        OR = {
+                            de_jure_liege = title:k_england
+                            de_jure_liege = title:k_scotland
+                        }
+                    }
+                }
+
+                # Duchy within England or Scotland
+                primary_title = {
+                    OR = {
+                        de_jure_liege = title:k_england
+                        de_jure_liege = title:k_scotland
+                    }
                 }
             }
         }
+
+        # Tribal Era
 		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
 
