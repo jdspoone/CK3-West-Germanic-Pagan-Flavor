@@ -1,14 +1,14 @@
 ﻿l_english:
 
- west_germanic_to_asatru_decision: "Return to the Old Gods"
+west_germanic_conversion_decision: "Return to the Old Gods"
 
- west_germanic_to_asatru_decision_desc: "The foreign Christ-god has left us weak and vulnerable. It is time to return to the faith of my ancestors!"
+west_germanic_conversion_decision_desc: "The foreign Christ-god has left us weak and vulnerable. It is time to return to the faith of my ancestors!"
 
- west_germanic_to_asatru_decision_tooltip: "Convert to Asatru, the native faith of the Anglo-Saxon peoples."
+west_germanic_conversion_decision_tooltip: "Convert to Asatru, the native faith of the Anglo-Saxon peoples."
 
- west_germanic_to_asatru_decision_confirm: "Return to the Old Gods"
+west_germanic_conversion_decision_confirm: "Return to the Old Gods"
 
-west_germanic_to_asatru_duchy_req_tooltip: "Your primary title is a duchy within the de jure Kingdoms of England or Scotland"
+west_germanic_conversion_duchy_req_tooltip: "Your primary title is a duchy within the de jure Kingdoms of England or Scotland"
 
 west_germanic_conversion_event_title: "Converted to Ásatrú"
 

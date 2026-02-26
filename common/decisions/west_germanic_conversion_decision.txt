@@ -1,12 +1,12 @@
-west_germanic_to_asatru_decision = {
+west_germanic_conversion_decision = {
 
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
     }
 
-    desc = west_germanic_to_asatru_decision_desc
-    selection_tooltip = west_germanic_to_asatru_decision_tooltip
-    confirm_text = west_germanic_to_asatru_decision_confirm
+    desc = west_germanic_conversion_decision_desc
+    selection_tooltip = west_germanic_conversion_decision_tooltip
+    confirm_text = west_germanic_conversion_decision_confirm
 
     # This decision should be visible to Christian West Germanic rulers in England or Scotland during the Tribal Era
     is_shown = {
@@ -28,7 +28,7 @@ west_germanic_to_asatru_decision = {
 
         # Use a custom tooltip to explain the duchy requirement more clearly
         custom_tooltip = {
-            text = west_germanic_to_asatru_duchy_req_tooltip
+            text = west_germanic_conversion_duchy_req_tooltip
             primary_title = {
                 OR = {
                     de_jure_liege = title:k_england
