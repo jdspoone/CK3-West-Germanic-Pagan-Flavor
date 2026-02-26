@@ -2,14 +2,25 @@ Improve Steam Workshop page description
     -Make use of Markdown script...
 
 West Germanic Christian to Asatru decision:
-1. Extend availability to include independent count tier rulers
+    -Improve validity conditions for decision
+        -Include independent count-tier rulers
+    -Improve logic for AI choosing this decision
+        -Finetune base decision chance and modifiers
+        -Increased chance to convert if liege is Asatru
+    -Potential for vassals to convert on liege conversion
+    -Positive realm modifiers applied to domain
+        -increased faith conversion speed, popular opinion, levies
+    -After implementation of West Germanic Pagan faith, rulers can now choose between:
+        -North Germanic Pagan faith (base game Asatru)
+        -West Germanic Pagan faith tailored for Anglo-Saxons in Brittania
 
 Add Anglo-Saxon specific Germanic faith
-    - Holy sites should be different than North Germanic Paganism
+    -Necessarily creates comptabiity concerns...
+    -Holy sites should be different than North Germanic Paganism
         -Lejre (re. Beowulf)
-        -Paderborn (why not...)
         -Kent/Canterbury (re death of Horsa, also can then easily use Canterbury Cathedral...)
-        -
+        -Winchester
+        -London (or barony to the west for MA overlap)
 
 Include support for Medieval Arts
     -West Germanics should be able to use Christian-specific special buildings within England
