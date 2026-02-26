@@ -76,6 +76,14 @@ west_germanic_conversion_decision = {
         # The ruler converts to Asatru
         set_character_faith = faith:norse_pagan
 
+        # Every non-zealous vassal converts
+        every_vassal = {
+            limit = {
+                NOT = { has_trait = zealous}
+            }
+            set_character_faith = faith:norse_pagan
+        }
+
         # All non-zealous courtiers will convert as well
         every_courtier = {
             limit = {

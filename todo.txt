@@ -5,7 +5,6 @@ West Germanic Christian to Asatru decision:
     -Improve logic for AI choosing this decision
         -Finetune base decision chance and modifiers
         -Increased chance to convert if liege is Asatru
-    -Potential for vassals to convert on liege conversion
     -Positive realm modifiers applied to domain
         -increased faith conversion speed, popular opinion, levies
     -After implementation of West Germanic Pagan faith, rulers can now choose between:
