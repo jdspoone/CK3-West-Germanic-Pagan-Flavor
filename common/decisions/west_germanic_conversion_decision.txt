@@ -30,22 +30,6 @@ west_germanic_conversion_decision = {
         # Landed Ruler
         is_landed = yes
 
-        # Independent count, or duke
-        OR = {
-            custom_tooltip = {
-                text = west_germanic_conversion_title_count_tier_req
-                AND = {
-                    primary_title.tier = tier_county
-                    is_independent_ruler = yes
-                }
-            }
-
-            custom_tooltip = {
-                text = west_germanic_conversion_title_duke_tier_req
-                primary_title.tier = tier_duchy
-            }
-        }
-
         # Primary title within England or Scotland
         custom_tooltip = {
             text = west_germanic_conversion_location_req_tooltip
@@ -103,9 +87,23 @@ west_germanic_conversion_decision = {
 
     cooldown = { years = 10 }
 
+
     ai_potential = {
-        # Limit the decision to non-zealous AI rulers
-        NOT = { has_trait = zealous }
+        OR = {
+            # Independent ruler with count-tier primary title, or
+            AND = {
+                primary_title.tier = tier_county
+                is_independent_ruler = yes
+            }
+
+            # Ruler with duke-tier primary title
+            primary_title.tier = tier_duchy
+        }
+
+        # Non-zealous
+        NOT = { 
+            has_trait = zealous 
+        }
     }
 
     ai_will_do = {
