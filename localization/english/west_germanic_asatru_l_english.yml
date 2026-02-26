@@ -17,3 +17,8 @@ west_germanic_conversion_event_title: "Converted to Ásatrú"
 west_germanic_conversion_event_desc: "I have cast aside the Christian faith and embraced of the old gods of my people!"
 
 west_germanic_conversion_event_ok: "Woden guides me!"
+
+
+west_germanic_conversion_county_modifier: "Ásatrú Conversion Fervor"
+
+west_germanic_conversion_county_modifier_desc: "Inspired by the return to the old gods, the people of this county rally with renewed vigor."

@@ -92,9 +92,13 @@ west_germanic_conversion_decision = {
             set_character_faith = faith:norse_pagan
         }
 
-        # Convert the faith of the ruler's capital county
+        # Convert the faith of the ruler's capital county, and apply a positive county modifier
         capital_county = { 
             set_county_faith = faith:norse_pagan 
+            add_county_modifier = {
+                modifier = west_germanic_conversion_county_modifier
+                years = 10
+            }                    
         }
 
         # Present an event panel for the player

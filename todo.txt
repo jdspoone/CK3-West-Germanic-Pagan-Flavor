@@ -5,8 +5,6 @@ West Germanic Christian to Asatru decision:
     -Improve logic for AI choosing this decision
         -Finetune base decision chance and modifiers
         -Increased chance to convert if liege is Asatru
-    -Positive realm modifiers applied to domain
-        -increased faith conversion speed, popular opinion, levies
     -After implementation of West Germanic Pagan faith, rulers can now choose between:
         -North Germanic Pagan faith (base game Asatru)
         -West Germanic Pagan faith tailored for Anglo-Saxons in Brittania
