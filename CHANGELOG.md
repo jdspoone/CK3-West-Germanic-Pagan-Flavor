@@ -1,8 +1,10 @@
-1.0.0
+# Changelog
+
+## 1.0.0
 - Initial release
 
-1.0.1
+## 1.0.1
 - West Germanic Conversion decision now converts faith of ruler's capital county to Asatru as well
 
-1.0.2
+## 1.0.2
 - West Germanic Conversion decision is now available to independent Count-tier rulers
