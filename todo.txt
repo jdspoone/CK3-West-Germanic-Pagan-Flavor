@@ -26,6 +26,3 @@ Include support for Medieval Arts
 
 Add my own special buildings (obviously without 3D graphics for now...)
     -Raedwald's barrow in East Anglia
-
-Ensure compatibility with Anglo Saxon Flavorization
-    -Shouldn't be any issues, but good to confirm...
