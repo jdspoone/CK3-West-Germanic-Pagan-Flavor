@@ -8,6 +8,8 @@ west_germanic_conversion_decision_tooltip: "Convert to Asatru, the native faith 
 
 west_germanic_conversion_decision_confirm: "Return to the Old Gods"
 
+west_germanic_conversion_county_culture_req_tooltip: "Your capital county's Culture must have West Germanic Heritage"
+
 west_germanic_conversion_location_req_tooltip: "Your primary title is within the de jure Kingdom of England or Scotland"
 
 west_germanic_conversion_event_title: "Converted to Ásatrú"

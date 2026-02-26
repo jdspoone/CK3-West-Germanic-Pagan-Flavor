@@ -11,3 +11,4 @@
 
 ## 1.0.3
 - Limit restrictions for West Germanic Conversion decision re. primary title tier to AI rulers, while player characters are free to use decision regardless of independence or primary title tier
+- West Germanic Conversion decision now additionally requires the character's capital county culture to be of West Germanic Heritage 

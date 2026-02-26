@@ -30,6 +30,14 @@ west_germanic_conversion_decision = {
         # Landed Ruler
         is_landed = yes
 
+        # Capital county with West Germanic cultural heritage
+        custom_tooltip = {
+            text = west_germanic_conversion_county_culture_req_tooltip
+            capital_county.culture = {
+                has_cultural_pillar = heritage_west_germanic
+            }
+        }
+
         # Primary title within England or Scotland
         custom_tooltip = {
             text = west_germanic_conversion_location_req_tooltip
