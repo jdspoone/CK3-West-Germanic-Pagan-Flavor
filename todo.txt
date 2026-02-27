@@ -1,25 +1,34 @@
 Improve Steam Workshop page description
-    -Make use of Markdown script...
+    -Will need to convert existing Markdown README to HTML
 
 West Germanic Christian to Asatru decision:
-    -Improve logic for AI choosing this decision
-        -Finetune base decision chance and modifiers
-        -Increased chance to convert if liege is Asatru
+    -Improve AI decision logic for West Germanic Conversion
+        -Finetune base decision chance and modifiers, very arbitrary at the moment...
+        -Increased chance to convert if liege is already Asatru...
     -After implementation of West Germanic Pagan faith, rulers can now choose between:
         -North Germanic Pagan faith (base game Asatru)
-        -West Germanic Pagan faith tailored for Anglo-Saxons in Brittania
+        -West Germanic Pagan faith tailored for Anglo-Saxons and derivatives in Britannia...
 
-Add Anglo-Saxon specific Germanic faith
+Additional Flavor Decisions:
+    -Cultural exchange with North Germanics (working title...)
+        -Bordering realm in Britannia ruled by North Germanics
+            -Requires positive relationship with the ruler?
+        -Requires some amount of cultural acceptance? or perhaps gives cultural acceptance?
+        -Culture gains access to the Longships innovation as a reward
+            -preferably will still need to be researched if possible...
+
+Add West Germanic Pagan faith
     -Necessarily creates comptabiity concerns...
     -Holy sites should be different than North Germanic Paganism
         -Lejre (re. Beowulf)
         -Kent/Canterbury (re death of Horsa, also can then easily use Canterbury Cathedral...)
         -Winchester
         -London (or barony to the west for MA overlap)
+    -Override vanilla implementation to have religious family as "Germanic", not "Norse"
 
 Include support for Medieval Arts
     -West Germanics should be able to use Christian-specific special buildings within England
-        -accomplished via cultural heritage or religious syncretism...
+        -accomplished via Holy Sites, cultural heritage or religious syncretism...
 
 Add my own special buildings (obviously without 3D graphics for now...)
     -Raedwald's barrow in East Anglia
