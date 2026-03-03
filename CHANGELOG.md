@@ -20,3 +20,6 @@
 ## 1.1.0
 - Added new West Germanic pagan faith Eseism within the broader Germanic religion
 - West Germanic Conversion decision now changes character faith to Eseism
+
+## 1.1.1
+- Improved AI ruler decision making for West Germanic Conversion decision
