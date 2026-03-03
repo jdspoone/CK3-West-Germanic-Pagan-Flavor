@@ -1,0 +1,79 @@
+﻿l_english:
+
+west_germanic_conversion_decision: "Return to the Old Gods"
+
+west_germanic_conversion_decision_desc: "The foreign Christ-god has left us weak and vulnerable. It is time to return to the faith of my ancestors!"
+
+west_germanic_conversion_decision_tooltip: "Convert to Eseism, the native faith of the Anglo-Saxon people."
+
+west_germanic_conversion_decision_confirm: "Return to the Old Gods"
+
+west_germanic_conversion_county_culture_req_tooltip: "Your capital county's Culture must have West Germanic Heritage"
+
+west_germanic_conversion_location_req_tooltip: "Your primary title is within the de jure Kingdom of England or Scotland"
+
+west_germanic_conversion_event_title: "Converted to Eseism"
+
+west_germanic_conversion_event_desc: "I have cast aside the Christian faith and embraced of the old gods of my people!"
+
+west_germanic_conversion_event_ok: "Woden guides me!"
+
+
+west_germanic_conversion_county_modifier: "Eseist Conversion Fervor"
+
+west_germanic_conversion_county_modifier_desc: "Inspired by the return to the old gods, the people of this county rally with renewed vigor."
+
+
+holy_site_winchester_name: "Winchester"
+holy_site_winchester_effect_name: "From [holy_site|E] #weak ($holy_site_winchester_name$)#!"
+
+holy_site_brentford_name: "Brentford"
+holy_site_brentford_effect_name: "From [holy_site|E] #weak ($holy_site_brentford_name$)#!"
+
+holy_site_durham_name: "Durham"
+holy_site_durham_effect_name: "From [holy_site|E] #weak ($holy_site_durham_name$)#!"
+
+
+west_germanic_pagan: "Eseism"
+west_germanic_pagan_adj: "Eseist"
+west_germanic_pagan_adherent: "Eseist"
+west_germanic_pagan_adherent_plural: "Eseists"
+
+west_germanic_pagan_old: "Old Eseism"
+west_germanic_pagan_old_adj: "Old Eseist"
+west_germanic_pagan_old_adherent: "Old Eseist"
+west_germanic_pagan_old_adherent_plural: "Old Eseists"
+
+west_germanic_pagan_high_god_name: "Woden"
+west_germanic_pagan_high_god_name_possessive: "Woden's"
+west_germanic_pagan_high_god_she_he: "He"
+west_germanic_pagan_high_god_alternate: "All-Father"
+west_germanic_pagan_high_god_alternate_possessive: "All-Father's"
+west_germanic_pagan_good_god_thor: "Thunor"
+west_germanic_pagan_good_god_wecta: "Wecta"
+west_germanic_pagan_good_god_seaxneat: "Seaxneat"
+west_germanic_pagan_good_god_baeldeag: "Baeldeag"
+
+west_germanic_pagan_creator_god_name: "$west_germanic_pagan_high_god_name$"
+west_germanic_pagan_creator_god_name_possessive: "$west_germanic_pagan_high_god_name_possessive$"
+
+west_germanic_pagan_health_god_name: "Frig"
+west_germanic_pagan_health_god_name_possessive: "Frig's"
+
+west_germanic_pagan_fertility_god_name: "Ing"
+west_germanic_pagan_fertility_god_name_possessive: "Ing's"
+
+west_germanic_pagan_wealth_god_name: "Beowa"
+west_germanic_pagan_wealth_god_name_possessive: "Beowa's"
+
+west_germanic_pagan_household_god_name: "$west_germanic_pagan_health_god_name$"
+west_germanic_pagan_household_god_name_possessive: "$west_germanic_pagan_health_god_name_possesive$"
+
+west_germanic_pagan_fate_god_name: "Wyrd"
+west_germanic_pagan_fate_god_name_possessive: "Wyrd's"
+
+west_germanic_pagan_knowledge_god_name: "$west_germanic_pagan_high_god_name$"
+west_germanic_pagan_knowledge_god_name_possessive: "$west_germanic_pagan_high_god_name_possessive$"
+
+west_germanic_pagan_war_god_name: "Tiw"
+west_germanic_pagan_war_god_name_possessive: "Tiw's"

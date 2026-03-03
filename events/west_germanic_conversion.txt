@@ -1,4 +1,4 @@
-namespace = west_germanic_conversion
+﻿namespace = west_germanic_conversion
 
 west_germanic_conversion.0001 = {
 

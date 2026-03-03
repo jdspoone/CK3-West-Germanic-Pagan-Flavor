@@ -16,3 +16,7 @@
 
 ## 1.0.4
 - West Germanic Conversion decision now applies a modifier to the ruler's capital county improving popular opinion, levy size, and levy reinforcement rate
+
+## 1.1.0
+- Added new West Germanic pagan faith Eseism within the broader Germanic religion
+- West Germanic Conversion decision now changes character faith to Eseism

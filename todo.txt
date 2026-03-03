@@ -1,13 +1,13 @@
-Improve Steam Workshop page description
-    -Will need to convert existing Markdown README to HTML
-
 West Germanic Christian to Asatru decision:
     -Improve AI decision logic for West Germanic Conversion
         -Finetune base decision chance and modifiers, very arbitrary at the moment...
         -Increased chance to convert if liege is already Asatru...
+    -Move decision effects from the effects method, to the event
+        -may be the better approach if there is a choice between converting to Asatru vs Eseism...
     -After implementation of West Germanic Pagan faith, rulers can now choose between:
         -North Germanic Pagan faith (base game Asatru)
         -West Germanic Pagan faith tailored for Anglo-Saxons and derivatives in Britannia...
+        -I may need to add a Game Rules toggle to en/disable AI selection of the West Germanic faith
 
 Additional Flavor Decisions:
     -Cultural exchange with North Germanics (working title...)
@@ -16,19 +16,13 @@ Additional Flavor Decisions:
         -Requires some amount of cultural acceptance? or perhaps gives cultural acceptance?
         -Culture gains access to the Longships innovation as a reward
             -preferably will still need to be researched if possible...
+    -Special decision to create Eseist holy order similar to the Jomsvikings...
+        -remove ability for Eseists to access the Jomsviking decision...
 
-Add West Germanic Pagan faith
-    -Necessarily creates comptabiity concerns...
-    -Holy sites should be different than North Germanic Paganism
-        -Lejre (re. Beowulf)
-        -Kent/Canterbury (re death of Horsa, also can then easily use Canterbury Cathedral...)
-        -Winchester
-        -London (or barony to the west for MA overlap)
-    -Override vanilla implementation to have religious family as "Germanic", not "Norse"
-
-Include support for Medieval Arts
-    -West Germanics should be able to use Christian-specific special buildings within England
-        -accomplished via Holy Sites, cultural heritage or religious syncretism...
+Improvements to West Germanic Pagan faith:
+    -Override vanilla localization to display religious family as "Germanic", not "Norse"...
+    -Asatru and Eseism should ideally consider eachother Righteous, not astray
+    -Different name for Eseist holy orders, is this possible?
 
 Add my own special buildings (obviously without 3D graphics for now...)
-    -Raedwald's barrow in East Anglia
+    -Raedwald's barrow in Suffolk

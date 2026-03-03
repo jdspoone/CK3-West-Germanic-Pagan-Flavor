@@ -1,4 +1,4 @@
-west_germanic_conversion_decision = {
+﻿west_germanic_conversion_decision = {
 
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
@@ -73,15 +73,15 @@ west_germanic_conversion_decision = {
     }
 
     effect = {
-        # The ruler converts to Asatru
-        set_character_faith = faith:norse_pagan
+        # The ruler converts to saxon paganism
+        set_character_faith = faith:west_germanic_pagan
 
         # Every non-zealous vassal converts
         every_vassal = {
             limit = {
                 NOT = { has_trait = zealous}
             }
-            set_character_faith = faith:norse_pagan
+            set_character_faith = faith:west_germanic_pagan
         }
 
         # All non-zealous courtiers will convert as well
@@ -89,12 +89,12 @@ west_germanic_conversion_decision = {
             limit = {
                 NOT = { has_trait = zealous }
             }
-            set_character_faith = faith:norse_pagan
+            set_character_faith = faith:west_germanic_pagan
         }
 
         # Convert the faith of the ruler's capital county, and apply a positive county modifier
         capital_county = { 
-            set_county_faith = faith:norse_pagan 
+            set_county_faith = faith:west_germanic_pagan 
             add_county_modifier = {
                 modifier = west_germanic_conversion_county_modifier
                 years = 10
