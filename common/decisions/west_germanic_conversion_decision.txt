@@ -188,6 +188,6 @@
     }
 
     
-    # The AI should check this decision every 24 months
-    ai_check_interval = 24
+    # The AI should review this decision every 5 years
+    ai_check_interval = 60
 }
