@@ -23,7 +23,7 @@ This mod has no dependencies, however I recommend using it alongside the followi
 - [Anglo Saxon Flavorization](https://steamcommunity.com/sharedfiles/filedetails/?id=3630785964)
 
 ## Compatibility
-This mod overrides the base-game definition of *germanic_religion*, defined in *common/religion/religions/00_germanic.txt*, for the purposes of adding a custom West Germanic pagan faith in the broader Germanic pagan religion. Any other mods overriding the same definition will be incompatible.
+This mod overrides the base-game definition of *germanic_religion*, defined in *common/religion/religions/00_germanic.txt*. Any other mods overriding the same definition will be incompatible.
 
 ## Credits
 [The Fallen Eagle](https://steamcommunity.com/workshop/filedetails/?id=2243307127)'s implementation of Eseism was used as a guide for my own, and I have used their Eseism-specific English localizations without changes.
