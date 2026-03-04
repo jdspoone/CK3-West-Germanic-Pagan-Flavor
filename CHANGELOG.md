@@ -23,3 +23,6 @@
 
 ## 1.1.1
 - Improved AI ruler decision making for West Germanic Conversion decision
+
+## 1.1.2
+- Added Eseism-specific holy order names

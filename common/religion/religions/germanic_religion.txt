@@ -274,6 +274,15 @@
 			doctrine = tenet_communal_identity
 			doctrine = tenet_ancestor_worship
 
+			holy_order_names = {
+				{ name = "holy_order_wodens_wolves" }
+				{ name = "holy_order_wodens_sworn_followers" }
+				{ name = "holy_order_odins_wodens_spears" }
+				{ name = "holy_order_temple_guardians" }
+				{ name = "holy_order_thunors_bears" }
+				{ name = "holy_order_tiws_sworn_followers" }
+			}
+
 			localization = {
 				#HighGodName
 				HighGodName = west_germanic_pagan_high_god_name

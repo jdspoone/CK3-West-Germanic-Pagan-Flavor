@@ -34,6 +34,14 @@ holy_site_durham_name: "Durham"
 holy_site_durham_effect_name: "From [holy_site|E] #weak ($holy_site_durham_name$)#!"
 
 
+holy_order_wodens_wolves: "Wodenwulfas"
+holy_order_wodens_sworn_followers: "Wodengesithas"
+holy_order_odins_wodens_spears: "Wodensperas"
+holy_order_temple_guardians: "Heargweardas"
+holy_order_thunors_bears: "Thunorberas"
+holy_order_tiws_sworn_followers: "Tiwgesithas"
+
+
 west_germanic_pagan: "Eseism"
 west_germanic_pagan_adj: "Eseist"
 west_germanic_pagan_adherent: "Eseist"
