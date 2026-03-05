@@ -8,7 +8,6 @@ winchester = {
 	character_modifier = {
 		name = holy_site_winchester_effect_name
 		prowess_per_piety_level = 1
-		supply_duration = 0.1
 	}
 }
 
@@ -20,7 +19,6 @@ brentford = {
 	character_modifier = {
 		name = holy_site_brentford_effect_name
 		knight_effectiveness_mult = 0.1
-		stewardship_per_piety_level = 1
 	}
 }
 
