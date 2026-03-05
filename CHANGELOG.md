@@ -26,3 +26,7 @@
 
 ## 1.1.2
 - Added Eseism-specific holy order names
+
+## 1.1.3
+- Improvements to AI decision making for conversion decision
+- Further reduced benefits for holding new Eseist holy sites for balance
