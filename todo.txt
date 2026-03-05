@@ -1,4 +1,7 @@
-Additional Features:
+Improvement to Eseism conversion decision
+    -Create game rule which determines whether AI rulers convert to Asatru or Eseism
+    -Give players the choice between converting to Asatru or Eseism via the event confirmation buttons
+
 Improvements to Germanic religion:
     -Override vanilla localization to display religious family as "Germanic", not "Norse"...
     -Asatru and Eseism should ideally consider eachother Righteous, not astray

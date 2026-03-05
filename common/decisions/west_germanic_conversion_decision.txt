@@ -121,60 +121,100 @@
             primary_title.tier = tier_duchy
         }
 
-
-        # Zealous, Craven, and Forgiving AI rulers are excluded from taking this decision
-        NOT = {
-            OR = {
-                has_trait = zealous
-                has_trait = craven
-                has_trait = forgiving
-            }
-        }
+        # AI rulers must not be Zealous to consider this decision
+        ai_zeal < high_positive_ai_value                
     }
 
     ai_will_do = {
-        base = 20
+        # Begin with a relatively low base chance
+        base = 10
 
-        # Wrathful, Ambitious, Vengeful, Greedy and Cynical rulers are more likely to take the decision
-        modifier = {
-            factor = 3
-            has_trait = wrathful
-        }
-
+        # Characters whose liege or suzerain follow a Germanic faith are more likely to convert
         modifier = {
             factor = 4
-            has_trait = ambitious
+            OR = {
+                liege = {
+                    religion = religion:germanic_religion
+                }
+                suzerain = {
+                    religion = religion:germanic_religion
+                }
+            }
         }
 
+        # Cowardly characters are unlikely to convert
+        modifier = {
+            factor = 0.1
+            ai_boldness < medium_negative_ai_value
+        }
+
+        # Bold characters are more likely to convert
         modifier = {
             factor = 3
-            has_trait = vengeful
+            AND = {
+                ai_boldness >= medium_positive_ai_value
+                ai_boldness < high_positive_ai_value
+            }
         }
 
+        # Fearless characters are much more likely to convert
         modifier = {
-            factor = 2
-            has_trait = greedy
+            factor = 5
+            ai_boldness >= high_positive_ai_value
         }
 
-        modifier = {
-            factor = 2
-            has_trait = cynical
-        }
-
-        # Content, Humble and Compassionate rulers are significantly less likely to take the decision
-        modifier = {
-            factor = 0.25
-            has_trait = content
-        }
-
+        # Compassionate characters are less likely to convert
         modifier = {
             factor = 0.25
-            has_trait = humble
+            ai_compassion >= low_positive_ai_value
         }
 
+        # Content characters are less likely to convert
         modifier = {
             factor = 0.25
-            has_trait = compassionate
+            ai_greed < low_negative_ai_value
+        }
+
+        # Covetous characters are more likely to convert
+        modifier = {
+            factor = 3
+            AND = {
+                ai_greed >= medium_positive_ai_value
+                ai_greed < high_positive_ai_value
+            }
+        }
+
+        # Rapacious characters are much more likely to convert
+        modifier = {
+            factor = 5
+            ai_greed >= high_positive_ai_value
+        }
+
+        # Forgiving characters are less likely to convert
+        modifier = {
+            factor = 0.25
+            ai_vengefulness < low_negative_ai_value
+        }
+
+        # Resentful characters are more likely to convert
+        modifier = {
+            factor = 3
+            AND = {
+                ai_vengefulness >= medium_positive_ai_value
+                ai_vengefulness < high_positive_ai_value
+            }
+        }
+
+        # Vindictive characters are much more likely to convert
+        modifier = {
+            factor = 5
+            ai_vengefulness >= high_positive_ai_value
+        }
+
+        # Zealous characters are highly unlikely to convert
+        modifier = {
+            factor = 0.1
+            ai_zeal >= medium_positive_ai_value
         }
     }
 
