@@ -30,3 +30,6 @@
 ## 1.1.3
 - Improvements to AI decision making for conversion decision
 - Further reduced benefits for holding new Eseist holy sites for balance
+
+## 1.1.4
+- Allow conversion decision in all eras, but decrease AI liklihood of taking decision in later eras

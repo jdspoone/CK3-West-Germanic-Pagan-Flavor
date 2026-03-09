@@ -1,10 +1,19 @@
 Improvement to Eseism conversion decision
     -Create game rule which determines whether AI rulers convert to Asatru or Eseism
     -Give players the choice between converting to Asatru or Eseism via the event confirmation buttons
+    -Improve county bonuses to keep newly converted AI rulers alive
+        -Increase fort level?
 
 Improvements to Germanic religion:
     -Override vanilla localization to display religious family as "Germanic", not "Norse"...
     -Asatru and Eseism should ideally consider eachother Righteous, not astray
+        -special Germanic doctrine
+    -Custom tenets for Eseism?
+        -specific ideas pending...
+    -Add new holy site at Suffolk
+        -Raedwald's barrow at Sutton Hoo
 
-Add my own special buildings (obviously without 3D graphics for now...)
-    -Raedwald's barrow in Suffolk
+New West Germanic cultural traditions
+    -new MaA?
+
+New decisions?

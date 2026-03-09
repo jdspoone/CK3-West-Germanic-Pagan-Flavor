@@ -8,7 +8,7 @@
     selection_tooltip = west_germanic_conversion_decision_tooltip
     confirm_text = west_germanic_conversion_decision_confirm
 
-    # This decision should be visible to Christian West Germanic rulers in England or Scotland during the Tribal Era
+    # This decision should be visible to Christian West Germanic rulers in England or Scotland
     is_shown = {
         culture = { has_cultural_pillar = heritage_west_germanic }
         religion = religion:christianity_religion
@@ -17,7 +17,6 @@
 			title_tier = county
 			title_province = { geographical_region = world_europe_west_britannia }
 		}
-		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
 
     is_valid = {
@@ -62,9 +61,6 @@
                 }
             }
         }
-
-        # Tribal Era
-		culture = { NOT = { has_cultural_era_or_later = culture_era_early_medieval } }
     }
 
     cost = {
@@ -128,6 +124,30 @@
     ai_will_do = {
         # Begin with a relatively low base chance
         base = 10
+
+        # AI rulers are significantly less likely to take this decision in the late medieval era
+        modifier = {
+            factor = 0.25
+            culture = { has_cultural_era_or_later = culture_era_late_medieval }
+        }
+
+        # AI rulers are less likely to take this decision in the high medieval era
+        modifier = {
+            factor = 0.5
+            culture = { has_cultural_era_or_later = culture_era_high_medieval }
+        }
+
+        # AI rulers are slightly less likely to take this decision in the early medieval era
+        modifier = {
+            factor = 0.75
+            culture = { has_cultural_era_or_later = culture_era_early_medieval }
+        }
+
+        # AI rulers are more likely to take this decision in the tribal era
+        modifier = {
+            factor = 1.5
+            culture = { has_cultural_era_or_later = culture_era_tribal }
+        }
 
         # Characters whose liege or suzerain follow a Germanic faith are more likely to convert
         modifier = {
