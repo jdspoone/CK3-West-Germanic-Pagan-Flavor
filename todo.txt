@@ -1,19 +1,40 @@
+West Germanic Warfare cultural tradition (working title...)
+    -Generate custom graphics
+        -illustrations for West Germanic Warefare cultural tradition
+        -illustrtions/icons for new MaA types
+    -Add Fyrd Rider light horseman MaA...
+
+
 Improvement to Eseism conversion decision
     -Create game rule which determines whether AI rulers convert to Asatru or Eseism
     -Give players the choice between converting to Asatru or Eseism via the event confirmation buttons
     -Improve county bonuses to keep newly converted AI rulers alive
         -Increase fort level?
+    -Extend decision to allow Player to choose Eseism as a secret faith instead of converting outright???
+
 
 Improvements to Germanic religion:
-    -Override vanilla localization to display religious family as "Germanic", not "Norse"...
     -Asatru and Eseism should ideally consider eachother Righteous, not astray
         -special Germanic doctrine
     -Custom tenets for Eseism?
         -specific ideas pending...
     -Add new holy site at Suffolk
         -Raedwald's barrow at Sutton Hoo
+    -Can I add in Eseism via scripting instead of overriding germanic_religion?
+        -if possible, this would remove compatibility issues...
 
-New West Germanic cultural traditions
-    -new MaA?
 
-New decisions?
+New decisions
+    -Welsh Cultural Exchange
+        -Requires Welsh cultural acceptance greater than some threshold...
+        -Upgrades West Germanic Warfare tradition to give access to Longbowmen as well
+    -Norse Germanic Cultural Exchange
+        -Requires Norse/etc cultural acceptance greater than some threshold
+        -Gives culture the Longships innovation
+
+
+Add explicit dependency on Northern Lords DLC
+    -currently using Northern Lords graphical assets...
+
+
+Split localizations into multiple files for cleanliness
