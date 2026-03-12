@@ -145,6 +145,10 @@ fyrd_skirmishers = {
             damage = 4
             toughness = 4
         }
+        mountains = {
+            damage = 4
+            toughness = 4
+        }
 	}
 
 	counters = {
