@@ -1,0 +1,174 @@
+﻿# Standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 80 # Equivalent to having 8 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+# Must be synced between files with the values located at "# Provisions Costs #".
+@provisions_cost_infantry_cheap = 3
+@provisions_cost_infantry_moderate = 7
+@provisions_cost_infantry_expensive = 12
+@provisions_cost_infantry_bankrupting = 15
+
+
+gesithas = {
+	type = heavy_infantry
+
+	damage = 42
+	toughness = 34
+	pursuit = 8
+	screen = 6
+	
+	terrain_bonus = {
+		hills = {
+            damage = 4
+            toughness = 6
+        }
+		forest = { 
+            damage = 4
+            toughness = 6
+        }
+        taiga = {
+            damage = 4
+            toughness = 6
+        }
+	}
+	
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+		archers = 1
+	}
+
+	can_recruit = {
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_gesithas }
+		NOT = {
+			culture = {  has_cultural_parameter = strength_in_numbers_heavy_maa_ban }
+		}
+	}
+
+	winter_bonus = {
+		normal_winter = {
+            toughness = 4
+            screen = 4
+        }
+		harsh_winter = {
+            toughness = 4
+            screen = 4
+        }
+	}
+	
+	buy_cost = { gold = gesithas_recruitment_cost }
+	low_maintenance_cost = { gold = gesithas_low_maint_cost }
+	high_maintenance_cost = { gold = gesithas_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = gesithas
+}
+
+
+fyrd_spearmen = {
+	type = pikemen
+	
+	damage = 24
+	toughness = 30
+	pursuit = 0
+	screen = 10
+	
+	can_recruit = {
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_fyrd_spearmen }
+	}
+	
+	terrain_bonus = {
+		hills = { 
+            toughness = 10
+        }
+		mountains = { 
+            toughness = 14
+        }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 1
+		elephant_cavalry = 1
+    }
+
+	winter_bonus = {
+		normal_winter = {
+            damage = 4
+            screen = 6
+        }
+		harsh_winter = {
+            damage = 4
+            screen = 6
+        }
+	}
+
+	buy_cost = { gold = fyrd_spearmen_recruitment_cost }
+	low_maintenance_cost = { gold = fyrd_spearmen_low_maint_cost }
+	high_maintenance_cost = { gold = fyrd_spearmen_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = fyrd_spearmen
+}
+
+
+
+fyrd_skirmishers = {
+	type = skirmishers
+
+	can_recruit = {
+		valid_for_maa_trigger = { PARAMETER = unlock_maa_fyrd_skirmishers }
+	}
+
+	damage = 16
+	toughness = 20
+	pursuit = 18
+	screen = 12
+	
+	terrain_bonus = {
+		hills = {
+            damage = 4
+            toughness = 4
+        }
+		forest = {
+            damage = 4
+            toughness = 4
+        }
+		wetlands = {
+            damage = 4
+            toughness = 4
+        }
+	}
+
+	counters = {
+		heavy_infantry = 1
+		archers = 1
+	}
+
+	winter_bonus = {
+		normal_winter = {
+            damage = 8
+            pursuit = 8
+        }
+		harsh_winter = {
+            damage = 8
+            pursuit = 8
+        }
+	}
+
+	buy_cost = { gold = fyrd_skirmishers_recruitment_cost }
+	low_maintenance_cost = { gold = fyrd_skirmishers_low_maint_cost }
+	high_maintenance_cost = { gold = fyrd_skirmishers_high_maint_cost }
+	provision_cost = @provisions_cost_infantry_cheap
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = fyrd_skirmishers
+}

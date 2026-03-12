@@ -1,0 +1,18 @@
+﻿on_game_start = {
+	on_actions = {
+		replace_hirds_for_west_germanics_on_game_start
+	}
+}
+
+replace_hirds_for_west_germanics_on_game_start = {
+	effect = {
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_west_germanic
+				has_cultural_tradition = tradition_hird
+			}
+			remove_culture_tradition = tradition_hird
+			add_culture_tradition = tradition_west_germanic_warfare
+		}
+	}
+}
