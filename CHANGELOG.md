@@ -38,3 +38,7 @@
 - Added new West Germanic Warfare cultural tradition, which replaces Hirds for Anglo-Saxon culture
 - Added new West Germanic specific Men-at-Arms types Gesithas, Fyrd Spearmen, and Fyrd Skirmishers
 - Conversion decision now grants rulers a small army of West Germanic specific Men-at-Arms
+
+## 1.2.1
+- Added new Eseist holy site at Ipswich
+- Tweaks to statistics of West Germanic specific Men-at-Arms
