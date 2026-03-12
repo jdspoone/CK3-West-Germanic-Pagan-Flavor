@@ -32,3 +32,13 @@ durham = {
 		defender_advantage = 5
 	}
 }
+
+ipswich = {
+	county = c_suffolk
+	barony = b_ipswich
+
+	character_modifier = {
+		name = holy_site_ipswich_effect_name
+		controlled_province_advantage = 5
+	}
+}

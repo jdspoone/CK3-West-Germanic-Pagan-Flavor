@@ -267,6 +267,7 @@
 			holy_site = winchester
 			holy_site = brentford
 			holy_site = durham
+			holy_site = ipswich
 
 			doctrine = unreformed_faith_doctrine
 

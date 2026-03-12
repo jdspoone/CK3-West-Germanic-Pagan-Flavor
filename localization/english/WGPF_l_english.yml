@@ -38,6 +38,9 @@ holy_site_brentford_effect_name: "From [holy_site|E] #weak ($holy_site_brentford
 holy_site_durham_name: "Durham"
 holy_site_durham_effect_name: "From [holy_site|E] #weak ($holy_site_durham_name$)#!"
 
+holy_site_ipswich_name: "Ipswich"
+holy_site_ipswich_effect_name: "From [holy_site|E] #weak ($holy_site_ipswich_name$)#!"
+
 
 holy_order_wodens_wolves: "Wodenwulfas"
 holy_order_wodens_sworn_followers: "Wodengesithas"
