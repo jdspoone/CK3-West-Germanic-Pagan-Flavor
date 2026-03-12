@@ -24,6 +24,11 @@ west_germanic_conversion_county_modifier: "Eseist Conversion Fervor"
 west_germanic_conversion_county_modifier_desc: "Inspired by the return to the old gods, the people of this county rally with renewed vigor."
 
 
+west_germanic_conversion_event_troops: "Eseist Fanatics"
+
+west_germanic_conversion_event_troops_description: "You raise a small army of Eseist fanatics"
+
+
 holy_site_winchester_name: "Winchester"
 holy_site_winchester_effect_name: "From [holy_site|E] #weak ($holy_site_winchester_name$)#!"
 

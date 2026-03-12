@@ -97,6 +97,28 @@
             }                    
         }
 
+        # Grant the ruler a stack of special troops
+        custom_tooltip = {
+            text = west_germanic_conversion_event_troops_description
+
+            spawn_army = {
+                men_at_arms = {
+                    type = gesithas
+                    stacks = 1
+                }
+                men_at_arms = {
+                    type = fyrd_spearmen
+                    stacks = 2
+                }
+                men_at_arms = {
+                    type = fyrd_skirmishers
+                    stacks = 2
+                }
+                location = capital_province
+                name = west_germanic_conversion_event_troops
+            }
+        }
+
         # Present an event panel for the player
         trigger_event = west_germanic_conversion.0001
     }
