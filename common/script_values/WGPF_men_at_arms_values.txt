@@ -14,9 +14,9 @@
 @heavy_infantry_high_maint_cost = @[heavy_infantry_low_maint_cost * high_maint_mult]
 
 
-gesithas_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.5]
-gesithas_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.5]
-gesithas_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.5]
+gesithas_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.4]
+gesithas_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.4]
+gesithas_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.4]
 
 
 fyrd_spearmen_recruitment_cost = @[pikemen_recruitment_cost * 1.25]
