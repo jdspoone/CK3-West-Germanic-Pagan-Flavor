@@ -8,8 +8,6 @@ West Germanic Warfare cultural tradition (working title...)
 Improvement to Eseism conversion decision
     -Create game rule which determines whether AI rulers convert to Asatru or Eseism
     -Give players the choice between converting to Asatru or Eseism via the event confirmation buttons
-    -Improve county bonuses to keep newly converted AI rulers alive
-        -Increase fort level?
     -Extend decision to allow Player to choose Eseism as a secret faith instead of converting outright???
 
 
@@ -18,23 +16,18 @@ Improvements to Germanic religion:
         -special Germanic doctrine
     -Custom tenets for Eseism?
         -specific ideas pending...
-    -Add new holy site at Suffolk
-        -Raedwald's barrow at Sutton Hoo
     -Can I add in Eseism via scripting instead of overriding germanic_religion?
         -if possible, this would remove compatibility issues...
 
 
 New decisions
     -Welsh Cultural Exchange
-        -Requires Welsh cultural acceptance greater than some threshold...
+        -Travel event with a number of difficult skill checks, perhaps benefitting from a higher cultural acceptance...
         -Upgrades West Germanic Warfare tradition to give access to Longbowmen as well
     -Norse Germanic Cultural Exchange
-        -Requires Norse/etc cultural acceptance greater than some threshold
-        -Gives culture the Longships innovation
-
-
-Add explicit dependency on Northern Lords DLC
-    -currently using Northern Lords graphical assets...
+        -Travel event through Scandinavia
+        -If successful, allows for hybridization with Norse even if not present in realm
+            -Or gives the Longships innovation directly...
 
 
 Split localizations into multiple files for cleanliness
