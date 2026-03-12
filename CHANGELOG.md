@@ -33,3 +33,8 @@
 
 ## 1.1.4
 - Allow conversion decision in all eras, but decrease AI liklihood of taking decision in later eras
+
+## 1.2.0
+- Added new West Germanic Warfare cultural tradition, which replaces Hirds for Anglo-Saxon culture
+- Added new West Germanic specific Men-at-Arms types Gesithas, Fyrd Spearmen, and Fyrd Skirmishers
+- Conversion decision now grants rulers a small army of West Germanic specific Men-at-Arms
