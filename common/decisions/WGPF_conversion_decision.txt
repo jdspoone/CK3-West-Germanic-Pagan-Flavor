@@ -1,12 +1,12 @@
-﻿west_germanic_conversion_decision = {
+﻿germanic_conversion_decision = {
 
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
     }
 
-    desc = west_germanic_conversion_decision_desc
-    selection_tooltip = west_germanic_conversion_decision_tooltip
-    confirm_text = west_germanic_conversion_decision_confirm
+    desc = germanic_conversion_decision_desc
+    selection_tooltip = germanic_conversion_decision_tooltip
+    confirm_text = germanic_conversion_decision_confirm
 
     # This decision should be visible to Christian West Germanic rulers in England or Scotland
     is_shown = {
@@ -31,7 +31,7 @@
 
         # Capital county with West Germanic cultural heritage
         custom_tooltip = {
-            text = west_germanic_conversion_county_culture_req_tooltip
+            text = germanic_conversion_county_culture_req_tooltip
             capital_county.culture = {
                 has_cultural_pillar = heritage_west_germanic
             }
@@ -39,7 +39,7 @@
 
         # Primary title within England or Scotland
         custom_tooltip = {
-            text = west_germanic_conversion_location_req_tooltip
+            text = germanic_conversion_location_req_tooltip
 
             OR = {
                 # County within England or Scotland
@@ -92,14 +92,14 @@
         capital_county = { 
             set_county_faith = faith:west_germanic_pagan 
             add_county_modifier = {
-                modifier = west_germanic_conversion_county_modifier
+                modifier = germanic_conversion_county_modifier
                 years = 10
             }                    
         }
 
         # Grant the ruler a stack of special troops
         custom_tooltip = {
-            text = west_germanic_conversion_event_troops_description
+            text = germanic_conversion_event_troops_description
 
             spawn_army = {
                 men_at_arms = {
@@ -115,12 +115,12 @@
                     stacks = 2
                 }
                 location = capital_province
-                name = west_germanic_conversion_event_troops
+                name = germanic_conversion_event_troops
             }
         }
 
         # Present an event panel for the player
-        trigger_event = west_germanic_conversion.0001
+        trigger_event = germanic_conversion_event.0001
     }
 
     cooldown = { years = 10 }

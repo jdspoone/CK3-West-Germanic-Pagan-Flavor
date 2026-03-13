@@ -1,18 +1,18 @@
-﻿namespace = west_germanic_conversion
+﻿namespace = germanic_conversion_event
 
-west_germanic_conversion.0001 = {
+germanic_conversion_event.0001 = {
 
     type = character_event
-    title = west_germanic_conversion_event_title
-    desc = west_germanic_conversion_event_desc
+    title = germanic_conversion_event_title
+    desc = germanic_conversion_event_desc
 
-    theme = west_germanic_conversion_event_theme
+    theme = germanic_conversion_event_theme
 
 	left_portrait = {
 		character = root
 	}
 
     option = {
-        name = west_germanic_conversion_event_ok
+        name = germanic_conversion_event_ok
     }
 }
