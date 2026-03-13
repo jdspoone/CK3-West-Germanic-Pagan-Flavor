@@ -123,8 +123,6 @@
         trigger_event = germanic_conversion_event.0001
     }
 
-    cooldown = { years = 10 }
-
 
     ai_potential = {
         # AI rulers must be an independent count, or a duke
