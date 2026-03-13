@@ -8,7 +8,7 @@
     selection_tooltip = germanic_conversion_decision_tooltip
     confirm_text = germanic_conversion_decision_confirm
 
-    # This decision should be visible to Christian West Germanic rulers in England or Scotland
+    # This decision should be visible to Christian West Germanic rulers in Britannia
     is_shown = {
         culture = { has_cultural_pillar = heritage_west_germanic }
         religion = religion:christianity_religion
