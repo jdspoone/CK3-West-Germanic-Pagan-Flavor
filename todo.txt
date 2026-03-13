@@ -1,3 +1,11 @@
+West Germanic Dynasty Legacy
+    1.
+    2.
+    3.
+    4.
+    5.
+
+
 West Germanic Warfare cultural tradition (working title...)
     -Generate custom graphics
         -illustrations for West Germanic Warefare cultural tradition
@@ -6,6 +14,7 @@ West Germanic Warfare cultural tradition (working title...)
 
 
 Improvement to Eseism conversion decision
+    -Size of granted army should be a function of the realm size of the ruler converting
     -Create game rule which determines whether AI rulers convert to Asatru or Eseism
     -Give players the choice between converting to Asatru or Eseism via the event confirmation buttons
     -Extend decision to allow Player to choose Eseism as a secret faith instead of converting outright???
@@ -27,7 +36,14 @@ New decisions
     -Norse Germanic Cultural Exchange
         -Travel event through Scandinavia
         -If successful, allows for hybridization with Norse even if not present in realm
-            -Or gives the Longships innovation directly...
+    -North Germanic Raiding Journey
+        -Requires player to be culture head, and friendship with North Germanic ruler of Germanic religion capable of raiding overseas
+        -Travel event to this ruler's location
+            -Plan the raid to either Paris, Cordoba, Rome, or Byzantium
+        -Travel event to selected location
+            -Skill checks for success, gain artifacts/gold/etc for success, injuries/etc for failure
+        -Success grants longships innovation, and gives player the raider trait or pillager commander trait
 
 
-Split localizations into multiple files for cleanliness
+Localization
+    -Why can't I seem to split my single localization file into multiple files?
