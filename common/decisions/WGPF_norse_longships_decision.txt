@@ -1,0 +1,62 @@
+﻿norse_longships_decision = {
+
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+    }
+
+    desc = norse_longships_decision_desc
+    selection_tooltip = norse_longships_decision_tooltip
+    confirm_text = norse_longships_decision_confirm
+
+
+    is_shown = {
+        # Landed Ruler
+        is_landed = yes
+        
+        # West Germanic cultural heritage
+        culture = {  has_cultural_pillar = heritage_west_germanic  }
+
+        # Germanic faith
+        religion = religion:germanic_religion
+
+        # Capable of raiding
+        can_raid_trigger = yes
+    }
+
+    is_valid = {
+        # Landed Ruler
+        is_landed = yes
+
+        # West Germanic cultural heritage
+        culture = {  has_cultural_pillar = heritage_west_germanic  }
+
+        # Germanic faith
+        religion = religion:germanic_religion
+
+        # Requires having a Norse friend
+        custom_tooltip = {
+            text = norse_longships_decision_friend_requirement
+
+            any_relation = {
+                type = friend
+                culture = culture:norse
+            }
+        }
+    }
+
+    cost = {
+        prestige = 500
+        gold = 125
+    }
+
+
+    effect = {
+        culture = { add_innovation = innovation_longboats }
+
+        # Present an event panel for the player
+        trigger_event = norse_longships_event.0001
+    }
+
+
+    ai_check_interval = 0    
+}

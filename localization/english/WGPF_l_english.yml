@@ -32,6 +32,18 @@ welsh_longbow_event_desc: "Your Welsh friend has, for a price, shared with you t
 welsh_longbow_event_ok: "Discover the secret of Welsh longbows"
 
 
+norse_longships_decision: "Discover the secret of Norse longships"
+norse_longships_decision_desc: "The longships of the Norse have allowed them travel and plunder far and wide. Perhaps we could use these longships ourselves?"
+norse_longships_decision_tooltip: "Discover the secret of Norse longships"
+norse_longships_decision_confirm: "Discover the secret of Norse longships"
+
+norse_longships_decision_friend_requirement: "You are friends with a Norse character"
+
+norse_longships_event_title: "Discovering the secret of Norse longships"
+norse_longships_event_desc: "Your Norse friend has, for a price, shared with you the secret of their longships"
+norse_longships_event_ok: "Discover the secret of Norse longships"
+
+
 holy_site_winchester_name: "Winchester"
 holy_site_winchester_effect_name: "From [holy_site|E] #weak ($holy_site_winchester_name$)#!"
 

@@ -1,0 +1,18 @@
+﻿namespace = norse_longships_event
+
+norse_longships_event.0001 = {
+
+    type = character_event
+    title = norse_longships_event_title
+    desc = norse_longships_event_desc
+
+    theme = norse_longships_event_theme
+
+	left_portrait = {
+		character = root
+	}
+
+    option = {
+        name = norse_longships_event_ok
+    }
+}
