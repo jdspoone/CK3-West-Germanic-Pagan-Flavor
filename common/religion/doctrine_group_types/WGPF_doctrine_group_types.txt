@@ -1,0 +1,13 @@
+﻿# Override hostility_group to include a new Germanic-specific hostility doctrine
+
+hostility_group = {
+	category = "not_creatable"
+
+	doctrine_types = {
+		abrahamic_hostility_doctrine
+		germanic_hostility_doctrine
+		pagan_hostility_doctrine
+		eastern_hostility_doctrine
+		sinitic_hostility_doctrine
+	}
+}
