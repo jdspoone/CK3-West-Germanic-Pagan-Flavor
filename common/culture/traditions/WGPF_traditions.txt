@@ -23,6 +23,7 @@
 	
 	parameters = {
         unlock_maa_gesithas = yes
+		unlock_maa_huscarls = yes
         unlock_maa_fyrd_spearmen = yes
         unlock_maa_fyrd_skirmishers = yes
 		strong_traits_more_valued = yes
