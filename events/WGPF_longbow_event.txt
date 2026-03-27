@@ -1,0 +1,18 @@
+﻿namespace = welsh_longbow_event
+
+welsh_longbow_event.0001 = {
+
+    type = character_event
+    title = welsh_longbow_event_title
+    desc = welsh_longbow_event_desc
+
+    theme = welsh_longbow_event_theme
+
+	left_portrait = {
+		character = root
+	}
+
+    option = {
+        name = welsh_longbow_event_ok
+    }
+}

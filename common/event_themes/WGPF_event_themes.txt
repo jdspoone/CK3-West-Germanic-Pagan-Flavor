@@ -12,3 +12,15 @@
 		reference = fp1_runestone_circle
     }
 }
+
+
+welsh_longbow_event_theme = {
+
+	icon = { 
+        reference = "gfx/interface/icons/event_types/type_generic.dds" 
+    }
+    
+	background = {
+		reference = forest
+    }
+}
