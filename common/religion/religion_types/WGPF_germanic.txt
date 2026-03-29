@@ -259,7 +259,7 @@
 
 		west_germanic_pagan = {
 
-			color = { 0.4 0.4 0.4 }
+			color = { 0.5 0.5 0.5 }
 			icon = custom_faith_fp1_odins_ravens
 			reformed_icon = eseism_reformed
 
