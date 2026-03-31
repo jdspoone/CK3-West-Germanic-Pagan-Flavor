@@ -33,13 +33,17 @@
         # Germanic faith
         religion = religion:germanic_religion
 
-        # Requires having a Norse friend
+        # Moderately prestigious
+		prestige_level >= 3
+
+        # Requires having a Norse Germanic-faith friend
         custom_tooltip = {
             text = norse_longships_decision_friend_requirement
 
             any_relation = {
                 type = friend
                 culture = culture:norse
+                religion = religion:germanic_religion
             }
         }
     }

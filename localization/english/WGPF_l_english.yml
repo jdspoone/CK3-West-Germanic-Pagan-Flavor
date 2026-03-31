@@ -37,7 +37,7 @@ norse_longships_decision_desc: "The longships of the Norse have allowed them tra
 norse_longships_decision_tooltip: "Discover the secret of Norse longships"
 norse_longships_decision_confirm: "Discover the secret of Norse longships"
 
-norse_longships_decision_friend_requirement: "You are friends with a Norse character"
+norse_longships_decision_friend_requirement: "You are friends with a Norse character of a Germanic faith"
 
 norse_longships_event_title: "Discovering the secret of Norse longships"
 norse_longships_event_desc: "Your Norse friend has, for a price, shared with you the secret of their longships"
