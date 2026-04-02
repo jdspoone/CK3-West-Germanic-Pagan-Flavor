@@ -9,3 +9,18 @@ germanic_hostility_doctrine = {
 		hostility_others = 3
 	}
 }
+
+
+doctrine_funeral_longship = {
+	piety_cost = {
+		value = faith_doctrine_cost_mid
+		if = {
+			limit = { has_doctrine = doctrine_funeral_longship }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+		longship_funeral = yes
+	}
+}

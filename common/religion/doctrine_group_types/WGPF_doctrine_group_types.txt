@@ -11,3 +11,20 @@ hostility_group = {
 		sinitic_hostility_doctrine
 	}
 }
+
+
+# Override doctrine_funeral to include a new Germanic specific funeral doctrine
+
+doctrine_funeral = {
+	category = "clergy"
+
+	doctrine_types = {
+		doctrine_funeral_stoic
+		doctrine_funeral_bewailment
+		doctrine_funeral_cremation
+		doctrine_funeral_sky_burial
+		doctrine_funeral_mummification
+		doctrine_family_rites
+		doctrine_funeral_longship
+	}
+}
