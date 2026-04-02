@@ -10,17 +10,17 @@
 
 
     is_shown = {
-        # Landed Ruler
-        is_landed = yes
-        
         # West Germanic cultural heritage
-        culture = {  has_cultural_pillar = heritage_west_germanic  }
+        culture = { 
+            has_cultural_pillar = heritage_west_germanic
+        }
 
-        # Germanic faith
-        religion = religion:germanic_religion
-
-        # Capable of raiding
-        can_raid_trigger = yes
+        # Culture does not already have the longboats innovation
+        NOT = { 
+            culture = { 
+                has_innovation = innovation_longboats 
+            }
+        }
     }
 
     is_valid = {
@@ -30,20 +30,19 @@
         # West Germanic cultural heritage
         culture = {  has_cultural_pillar = heritage_west_germanic  }
 
-        # Germanic faith
-        religion = religion:germanic_religion
-
         # Moderately prestigious
 		prestige_level >= 3
 
-        # Requires having a Norse Germanic-faith friend
+        # Friends with a North Germanic ruler following the same religious family as you
         custom_tooltip = {
             text = norse_longships_decision_friend_requirement
-
             any_relation = {
                 type = friend
-                culture = culture:norse
-                religion = religion:germanic_religion
+                is_landed = yes
+                culture = {  
+                    has_cultural_pillar = heritage_north_germanic 
+                }
+                religion = root.religion
             }
         }
     }
