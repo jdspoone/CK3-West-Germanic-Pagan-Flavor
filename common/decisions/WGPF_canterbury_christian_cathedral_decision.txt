@@ -1,0 +1,78 @@
+﻿canterbury_christian_cathedral_decision = {
+
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+    }
+
+
+    desc = canterbury_christian_cathedral_decision_desc
+    selection_tooltip = canterbury_christian_cathedral_decision_tooltip
+    confirm_text = canterbury_christian_cathedral_decision_confirm
+
+
+    is_shown = {
+        # Christian religion
+        religion = religion:christian_religion
+
+        # Owning a title within the Kingdom of England
+        OR = {
+            any_held_title = {
+                de_jure_liege = {
+                    de_jure_liege = title:k_england
+                }
+            }
+
+            any_held_title = {
+                de_jure_liege = title:k_england
+            }
+        }
+
+        # The Germanic Temple at Canterbury exists
+        custom_tooltip = {
+            text = canterbury_temple_req_tooltip
+
+            title:b_canterbury.title_province = {
+                has_building = canterbury_germanic_temple
+            }
+        }
+    }
+
+
+    is_valid = {
+        # Christian faith
+        religion = religion:christian_religion
+
+        # Controls the county of Kent
+		has_title = title:c_kent
+
+        # The Germanic Temple at Canterbury exists
+        custom_tooltip = {
+            text = canterbury_temple_req_tooltip
+
+            title:b_canterbury.title_province = {
+                has_building = canterbury_germanic_temple
+            }
+        }
+    }
+
+
+    cost = {
+        gold = 1250
+        prestige = 500
+    }
+
+
+    effect = {
+        # Replace the Temple of Canterbury with the first level of the Canterbury Cathedral
+        title:b_canterbury.title_province = {
+            remove_building = canterbury_germanic_temple
+            add_special_building = holy_site_canterbury_cathedral_01
+        }
+
+        # Present an event panel for the player
+        trigger_event = canterbury_christian_cathedral_event.0001
+    }
+
+
+    ai_check_interval = 0
+}

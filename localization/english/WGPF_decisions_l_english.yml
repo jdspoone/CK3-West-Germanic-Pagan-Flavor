@@ -48,3 +48,16 @@ building_canterbury_germanic_temple_desc: "Erected on the site of the former cat
 canterbury_germanic_temple_event_title: "A new Germanic temple is built"
 canterbury_germanic_temple_event_desc: "Augustine's cathedral has been torn down, and in its place we have erected a magnificent temple, rivalling even the Temple at Uppsala!"
 canterbury_germanic_temple_event_ok: "The Gods are with us!"
+
+
+# Convert Germanic Temple of Canterbury back to the Canterbury Cathedral
+canterbury_christian_cathedral_decision: "Restore the Canterbury Cathedral"
+canterbury_christian_cathedral_decision_desc: "Augustine's cathedral has been defiled by the pagans, but we can restore it!"
+canterbury_christian_cathedral_decision_tooltip: "Restore the Canterbury Cathedral"
+canterbury_christian_cathedral_decision_confirm: "Restore the Canterbury Cathedral"
+
+canterbury_temple_req_tooltip: "The Germanic Temple of Canterbury exists"
+
+canterbury_christian_cathedral_event_title: "Canterbury Cathedral is restored"
+canterbury_christian_cathedral_event_desc: "Augustine's cathedral has been rebuilt, re-affirming the supremacy of the Christian faith against pagan idolatry in Britain!"
+canterbury_christian_cathedral_event_ok: "God is with us!"
