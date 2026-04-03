@@ -1,4 +1,4 @@
-﻿canterbury_germanic_temple = {
+﻿WGPF_canterbury_temple = {
 
 	effect_desc = {
 		triggered_desc = {

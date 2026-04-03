@@ -32,7 +32,7 @@
             text = canterbury_temple_req_tooltip
 
             title:b_canterbury.title_province = {
-                has_building = canterbury_germanic_temple
+                has_building = WGPF_canterbury_temple
             }
         }
     }
@@ -50,7 +50,7 @@
             text = canterbury_temple_req_tooltip
 
             title:b_canterbury.title_province = {
-                has_building = canterbury_germanic_temple
+                has_building = WGPF_canterbury_temple
             }
         }
     }
@@ -65,7 +65,7 @@
     effect = {
         # Replace the Temple of Canterbury with the first level of the Canterbury Cathedral
         title:b_canterbury.title_province = {
-            remove_building = canterbury_germanic_temple
+            remove_building = WGPF_canterbury_temple
             add_special_building = holy_site_canterbury_cathedral_01
         }
 

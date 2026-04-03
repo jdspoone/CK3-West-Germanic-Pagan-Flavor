@@ -94,7 +94,7 @@
                 remove_building = holy_site_canterbury_cathedral_03
             }
 
-            add_special_building = canterbury_germanic_temple
+            add_special_building = WGPF_canterbury_temple
         }
 
         # Present an event panel for the player

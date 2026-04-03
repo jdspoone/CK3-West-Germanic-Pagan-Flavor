@@ -41,9 +41,10 @@ canterbury_temple_decision_confirm: "Raise a Germanic Temple at Canterbury"
 
 canterbury_cathedral_req_tooltip: "Some version of the Canterbury Cathedral exists"
 
-building_canterbury_germanic_temple: "Temple of Canterbury"
-building_type_canterbury_germanic_temple: "Temple of Canterbury"
-building_canterbury_germanic_temple_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
+building_type_WGPF_canterbury_temple: "$building_WGPF_canterbury_temple$"
+building_type_WGPF_canterbury_temple_desc: "$building_WGPF_canterbury_temple_desc$"
+building_WGPF_canterbury_temple: "Temple of Canterbury"
+building_WGPF_canterbury_temple_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
 
 canterbury_temple_event_title: "A new Germanic temple is built"
 canterbury_temple_event_desc: "Augustine's cathedral has been torn down, and in its place we have erected a magnificent temple, rivalling even the Temple at Uppsala!"
