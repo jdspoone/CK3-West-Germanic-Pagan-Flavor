@@ -272,8 +272,13 @@
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_warmonger
+			# Gruesome Festivals, else Human Sacrifice.
+			doctrine_selection_pair = {
+				requires_dlc_flag = the_northern_lords
+				doctrine = tenet_gruesome_festivals
+				fallback_doctrine = tenet_human_sacrifice
+			}
 			doctrine = tenet_communal_identity
-			doctrine = tenet_ancestor_worship
 
 			holy_order_names = {
 				{ name = "holy_order_wodens_wolves" }
