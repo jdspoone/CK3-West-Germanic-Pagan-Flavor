@@ -107,11 +107,11 @@
                     stacks = 1
                 }
                 men_at_arms = {
-                    type = fyrd_spearmen
-                    stacks = 2
+                    type = huscarl
+                    stacks = 1
                 }
                 men_at_arms = {
-                    type = fyrd_skirmishers
+                    type = light_footmen
                     stacks = 2
                 }
                 location = capital_province

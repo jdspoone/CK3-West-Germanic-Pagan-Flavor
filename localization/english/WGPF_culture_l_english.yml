@@ -7,13 +7,6 @@ tradition_west_germanic_warfare_desc:0 "Where has the horse gone? Where the man?
 
 # West Germanic Men-at-Arms
 gesithas:0 "Gesithas"
-fyrd_spearmen:0 "Fyrd Spearmen"
-fyrd_skirmishers:0 "Fyrd Skirmishers"
-
 gesithas_flavor:0 "#F Gesithas are a lord's sworn companions, and form the elite of Germanic armies.#!"
-fyrd_spearmen_flavor:0 "#F Warriors raised from the free population, Fyrd Spearmen wield shield and spear and comprise the bulk of Germanic armies#!"
-fyrd_skirmishers_flavor:0 "#F Lightly armored warriors raised from the free populatin, Fyrd Skirmishers deftly wield seaxes and throwing spears to harass enemy forces.#!"
 
 culture_parameter_unlock_maa_gesithas:0 "Can recruit [GetMaA('gesithas').GetName] as [men_at_arms|E]"
-culture_parameter_unlock_maa_fyrd_spearmen:0 "Can recruit [GetMaA('fyrd_spearmen').GetName] as [men_at_arms|E]"
-culture_parameter_unlock_maa_fyrd_skirmishers:0 "Can recruit [GetMaA('fyrd_skirmishers').GetName] as [men_at_arms|E]"

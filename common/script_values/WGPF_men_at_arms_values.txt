@@ -1,29 +1,9 @@
 ﻿@high_maint_mult = 3
 
-### Base Cost Values
-@skirmisher_recruitment_cost = 45
-@skirmisher_low_maint_cost = 0.15
-@skirmisher_high_maint_cost = @[skirmisher_low_maint_cost * high_maint_mult]
-
-@pikemen_recruitment_cost = 75
-@pikemen_low_maint_cost = 0.3
-@pikemen_high_maint_cost = @[pikemen_low_maint_cost * high_maint_mult]
-
 @heavy_infantry_recruitment_cost = 90
 @heavy_infantry_low_maint_cost = 0.4
 @heavy_infantry_high_maint_cost = @[heavy_infantry_low_maint_cost * high_maint_mult]
 
-
 gesithas_recruitment_cost = @[heavy_infantry_recruitment_cost * 1.4]
 gesithas_low_maint_cost = @[heavy_infantry_low_maint_cost * 1.4]
 gesithas_high_maint_cost = @[heavy_infantry_high_maint_cost * 1.4]
-
-
-fyrd_spearmen_recruitment_cost = @[pikemen_recruitment_cost * 1.25]
-fyrd_spearmen_low_maint_cost = @[pikemen_low_maint_cost * 1.25]
-fyrd_spearmen_high_maint_cost = @[pikemen_high_maint_cost * 1.25]
-
-
-fyrd_skirmishers_recruitment_cost = @[skirmisher_recruitment_cost * 1.25]
-fyrd_skirmishers_low_maint_cost = @[skirmisher_low_maint_cost * 1.25]
-fyrd_skirmishers_high_maint_cost = @[skirmisher_high_maint_cost * 1.25]
