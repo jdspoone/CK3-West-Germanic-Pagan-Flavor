@@ -31,17 +31,14 @@ norse_longships_event_desc: "Your Norse friend has, for a price, shared with you
 norse_longships_event_ok: "Discover the secret of Norse longships"
 
 
-holy_site_winchester_name: "Winchester"
-holy_site_winchester_effect_name: "From [holy_site|E] #weak ($holy_site_winchester_name$)#!"
+holy_site_dover_name: "Dover"
+holy_site_dover_effect_name: "From [holy_site|E] #weak ($holy_site_dover_name$)#!"
 
-holy_site_brentford_name: "Brentford"
-holy_site_brentford_effect_name: "From [holy_site|E] #weak ($holy_site_brentford_name$)#!"
+holy_site_warwick_name: "Brentford"
+holy_site_warwick_effect_name: "From [holy_site|E] #weak ($holy_site_warwick_name$)#!"
 
-holy_site_durham_name: "Durham"
-holy_site_durham_effect_name: "From [holy_site|E] #weak ($holy_site_durham_name$)#!"
-
-holy_site_ipswich_name: "Ipswich"
-holy_site_ipswich_effect_name: "From [holy_site|E] #weak ($holy_site_ipswich_name$)#!"
+holy_site_edinburgh_name: "Edinburgh"
+holy_site_edinburgh_effect_name: "From [holy_site|E] #weak ($holy_site_edinburgh_name$)#!"
 
 
 holy_order_wodens_wolves: "Wodenwulfas"

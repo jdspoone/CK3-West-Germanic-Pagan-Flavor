@@ -263,11 +263,11 @@
 			icon = custom_faith_fp1_odins_ravens
 			reformed_icon = eseism_reformed
 
-			holy_site = kent
-			holy_site = winchester
-			holy_site = brentford
-			holy_site = durham
-			holy_site = ipswich
+			holy_site = dover
+			holy_site = warwick
+			holy_site = edinburgh
+			holy_site = lejre
+			holy_site = paderborn
 
 			doctrine = unreformed_faith_doctrine
 
