@@ -1,23 +1,23 @@
 ﻿l_english:
 
 # Eseism Conversion Decision
-germanic_conversion_decision: "Return to the Old Gods"
-germanic_conversion_decision_desc: "The foreign Christ-god has left us weak and vulnerable. It is time to return to the faith of my ancestors!"
-germanic_conversion_decision_tooltip: "Convert to Eseism, the native faith of the Anglo-Saxon people."
-germanic_conversion_decision_confirm: "Return to the Old Gods"
+eseism_conversion_decision: "Return to the Old Gods"
+eseism_conversion_decision_desc: "The foreign Christ-god has left us weak and vulnerable. It is time to return to the faith of my ancestors!"
+eseism_conversion_decision_tooltip: "Convert to Eseism, the native faith of the Anglo-Saxon people."
+eseism_conversion_decision_confirm: "Return to the Old Gods"
 
-germanic_conversion_county_culture_req_tooltip: "Your capital county's Culture must have West Germanic Heritage"
-germanic_conversion_location_req_tooltip: "Your primary title is within the de jure Kingdom of England or Scotland"
+eseism_conversion_county_culture_req_tooltip: "Your capital county's Culture must have West Germanic Heritage"
+eseism_conversion_location_req_tooltip: "Your primary title is within the de jure Kingdom of England or Scotland"
 
-germanic_conversion_event_title: "Converted to Eseism"
-germanic_conversion_event_desc: "I have cast aside the Christian faith and embraced of the old gods of my people!"
-germanic_conversion_event_ok: "Woden guides me!"
+eseism_conversion_event_title: "Converted to Eseism"
+eseism_conversion_event_desc: "I have cast aside the Christian faith and embraced of the old gods of my people!"
+eseism_conversion_event_ok: "Woden guides me!"
 
-germanic_conversion_county_modifier: "Eseist Conversion Fervor"
-germanic_conversion_county_modifier_desc: "Inspired by the return to the old gods, the people of this county rally with renewed vigor."
+eseism_conversion_county_modifier: "Eseist Conversion Fervor"
+eseism_conversion_county_modifier_desc: "Inspired by the return to the old gods, the people of this county rally with renewed vigor."
 
-germanic_conversion_event_troops: "Eseist Fanatics"
-germanic_conversion_event_troops_description: "You raise a small army of Eseist fanatics"
+eseism_conversion_event_troops: "Eseist Fanatics"
+eseism_conversion_event_troops_description: "You raise a small army of Eseist fanatics"
 
 
 # Discover Norse Longships Decision

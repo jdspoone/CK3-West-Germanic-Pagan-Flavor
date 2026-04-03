@@ -1,18 +1,18 @@
-﻿namespace = germanic_conversion_event
+﻿namespace = eseism_conversion_event
 
-germanic_conversion_event.0001 = {
+eseism_conversion_event.0001 = {
 
     type = character_event
-    title = germanic_conversion_event_title
-    desc = germanic_conversion_event_desc
+    title = eseism_conversion_event_title
+    desc = eseism_conversion_event_desc
 
-    theme = germanic_conversion_event_theme
+    theme = eseism_conversion_event_theme
 
 	left_portrait = {
 		character = root
 	}
 
     option = {
-        name = germanic_conversion_event_ok
+        name = eseism_conversion_event_ok
     }
 }

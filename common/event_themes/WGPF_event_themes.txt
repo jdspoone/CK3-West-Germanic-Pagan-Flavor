@@ -1,4 +1,4 @@
-﻿germanic_conversion_event_theme = {
+﻿eseism_conversion_event_theme = {
 
 	icon = { 
         reference = "gfx/interface/icons/event_types/type_faith.dds" 

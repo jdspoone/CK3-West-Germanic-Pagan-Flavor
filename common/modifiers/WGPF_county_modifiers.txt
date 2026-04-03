@@ -1,4 +1,4 @@
-﻿germanic_conversion_county_modifier = {
+﻿eseism_conversion_county_modifier = {
     icon = asatru_raven_positive
 	garrison_size = 0.5
 	additional_fort_level = 2
