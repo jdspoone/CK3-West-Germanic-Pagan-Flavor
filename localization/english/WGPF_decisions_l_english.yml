@@ -1,0 +1,50 @@
+﻿l_english:
+
+# Eseism Conversion Decision
+germanic_conversion_decision: "Return to the Old Gods"
+germanic_conversion_decision_desc: "The foreign Christ-god has left us weak and vulnerable. It is time to return to the faith of my ancestors!"
+germanic_conversion_decision_tooltip: "Convert to Eseism, the native faith of the Anglo-Saxon people."
+germanic_conversion_decision_confirm: "Return to the Old Gods"
+
+germanic_conversion_county_culture_req_tooltip: "Your capital county's Culture must have West Germanic Heritage"
+germanic_conversion_location_req_tooltip: "Your primary title is within the de jure Kingdom of England or Scotland"
+
+germanic_conversion_event_title: "Converted to Eseism"
+germanic_conversion_event_desc: "I have cast aside the Christian faith and embraced of the old gods of my people!"
+germanic_conversion_event_ok: "Woden guides me!"
+
+germanic_conversion_county_modifier: "Eseist Conversion Fervor"
+germanic_conversion_county_modifier_desc: "Inspired by the return to the old gods, the people of this county rally with renewed vigor."
+
+germanic_conversion_event_troops: "Eseist Fanatics"
+germanic_conversion_event_troops_description: "You raise a small army of Eseist fanatics"
+
+
+# Discover Norse Longships Decision
+norse_longships_decision: "Discover the secret of Norse longships"
+norse_longships_decision_desc: "The longships of the Norse have allowed them travel and plunder far and wide. Perhaps we could use these longships ourselves?"
+norse_longships_decision_tooltip: "Discover the secret of Norse longships"
+norse_longships_decision_confirm: "Discover the secret of Norse longships"
+
+norse_longships_decision_friend_requirement: "You are friends with a North Germanic ruler belonging to the same religious family"
+
+norse_longships_event_title: "Discovering the secret of Norse longships"
+norse_longships_event_desc: "Your Norse friend has, for a price, shared with you the secret of their longships"
+norse_longships_event_ok: "Discover the secret of Norse longships"
+
+
+# Convert Canterbury Cathedral to Germanic Temple Decision
+canterbury_germanic_temple_decision: "Raise a Germanic Temple at Canterbury"
+canterbury_germanic_temple_decision_desc: "Augustine's cathedral, a powerful symbol of the Christian faith in Britain, could be re-purposed to honor the true Gods of our people."
+canterbury_germanic_temple_decision_tooltip: "Raise a Germanic Temple at Canterbury"
+canterbury_germanic_temple_decision_confirm: "Raise a Germanic Temple at Canterbury"
+
+canterbury_cathedral_req_tooltip: "Some version of the Canterbury Cathedral exists"
+
+building_canterbury_germanic_temple: "Temple of Canterbury"
+building_type_canterbury_germanic_temple: "Temple of Canterbury"
+building_canterbury_germanic_temple_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
+
+canterbury_germanic_temple_event_title: "A new Germanic temple is built"
+canterbury_germanic_temple_event_desc: "Augustine's cathedral has been torn down, and in its place we have erected a magnificent temple, rivalling even the Temple at Uppsala!"
+canterbury_germanic_temple_event_ok: "The Gods are with us!"

@@ -1,0 +1,79 @@
+﻿l_english:
+
+# Overrides
+germanic_religion:2 "Germanic"
+germanic_religion_adj:2 "Germanic"
+germanic_religion_adherent:2 "Germanic"
+germanic_religion_adherent_plural:2 "Germanic"
+germanic_religion_desc:2 "The native faith of the Germanic peoples, Germanic paganism revolves around reverence of gods known as the Æsir. Adherents are expected to live — and preferably die — in an honorable fashion."
+
+# Eseism Faith 
+west_germanic_pagan: "Eseism"
+west_germanic_pagan_adj: "Eseist"
+west_germanic_pagan_adherent: "Eseist"
+west_germanic_pagan_adherent_plural: "Eseists"
+
+west_germanic_pagan_old: "Old Eseism"
+west_germanic_pagan_old_adj: "Old Eseist"
+west_germanic_pagan_old_adherent: "Old Eseist"
+west_germanic_pagan_old_adherent_plural: "Old Eseists"
+
+west_germanic_pagan_high_god_name: "Woden"
+west_germanic_pagan_high_god_name_possessive: "Woden's"
+west_germanic_pagan_high_god_she_he: "He"
+west_germanic_pagan_high_god_alternate: "All-Father"
+west_germanic_pagan_high_god_alternate_possessive: "All-Father's"
+west_germanic_pagan_good_god_thor: "Thunor"
+west_germanic_pagan_good_god_wecta: "Wecta"
+west_germanic_pagan_good_god_seaxneat: "Seaxneat"
+west_germanic_pagan_good_god_baeldeag: "Baeldeag"
+
+west_germanic_pagan_creator_god_name: "$west_germanic_pagan_high_god_name$"
+west_germanic_pagan_creator_god_name_possessive: "$west_germanic_pagan_high_god_name_possessive$"
+
+west_germanic_pagan_health_god_name: "Frig"
+west_germanic_pagan_health_god_name_possessive: "Frig's"
+
+west_germanic_pagan_fertility_god_name: "Ing"
+west_germanic_pagan_fertility_god_name_possessive: "Ing's"
+
+west_germanic_pagan_wealth_god_name: "Beowa"
+west_germanic_pagan_wealth_god_name_possessive: "Beowa's"
+
+west_germanic_pagan_household_god_name: "$west_germanic_pagan_health_god_name$"
+west_germanic_pagan_household_god_name_possessive: "$west_germanic_pagan_health_god_name_possesive$"
+
+west_germanic_pagan_fate_god_name: "Wyrd"
+west_germanic_pagan_fate_god_name_possessive: "Wyrd's"
+
+west_germanic_pagan_knowledge_god_name: "$west_germanic_pagan_high_god_name$"
+west_germanic_pagan_knowledge_god_name_possessive: "$west_germanic_pagan_high_god_name_possessive$"
+
+west_germanic_pagan_war_god_name: "Tiw"
+west_germanic_pagan_war_god_name_possessive: "Tiw's"
+
+
+# Eseist Holy Orders
+holy_order_wodens_wolves: "Wodenwulfas"
+holy_order_wodens_sworn_followers: "Wodengesithas"
+holy_order_wodens_spears: "Wodensperas"
+holy_order_temple_guardians: "Heargweardas"
+holy_order_thunors_bears: "Thunorberas"
+holy_order_tiws_sworn_followers: "Tiwgesithas"
+
+
+# Eseist Holy Sites
+holy_site_dover_name: "Dover"
+holy_site_dover_effect_name: "From [holy_site|E] #weak ($holy_site_dover_name$)#!"
+
+holy_site_warwick_name: "Brentford"
+holy_site_warwick_effect_name: "From [holy_site|E] #weak ($holy_site_warwick_name$)#!"
+
+holy_site_edinburgh_name: "Edinburgh"
+holy_site_edinburgh_effect_name: "From [holy_site|E] #weak ($holy_site_edinburgh_name$)#!"
+
+
+# Longship Funeral Tradition
+doctrine_parameter_longship_funeral: "The [funeral|E] [activity|E] costs greatly reduced [gold|E]"
+doctrine_funeral_longship_name: "Longship Funeral"
+doctrine_funeral_longship_desc: "We are a seafaring people, and our great heroes deserve to be laid to rest in mighty longships."
