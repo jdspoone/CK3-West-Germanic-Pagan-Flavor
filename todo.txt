@@ -1,49 +1,34 @@
-West Germanic Dynasty Legacy
-    1.
-    2.
-    3.
-    4.
-    5.
+Special building conversion decisions
+    -Re-consecrate the tomb of the Kings of Wessex
+    -Raise a grand temple at Winchester
+    -Raise a grand temple at Durham?
 
 
-West Germanic Warfare cultural tradition (working title...)
+Longship Funeral Tradition
+    -Always give the option to sacrifice an artifact for additional bonuses
+    -If held on a coastal barony, give option to launch longship out to sea
+    -Otherwise, give option to bury longship in a barrow mound
+
+
+West Germanic Warfare cultural tradition
     -Generate custom graphics
-        -illustrations for West Germanic Warefare cultural tradition
+        -illustration for West Germanic Warefare cultural tradition
         -illustrtions/icons for new MaA types
-    -Add Fyrd Rider light horseman MaA...
 
 
-Improvement to Eseism conversion decision
+Improvements to Eseism conversion decision
     -Size of granted army should be a function of the realm size of the ruler converting
-    -Create game rule which determines whether AI rulers convert to Asatru or Eseism
-    -Give players the choice between converting to Asatru or Eseism via the event confirmation buttons
-    -Extend decision to allow Player to choose Eseism as a secret faith instead of converting outright???
 
 
-Improvements to Germanic religion:
-    -Asatru and Eseism should ideally consider eachother Righteous, not astray
-        -special Germanic doctrine
-    -Custom tenets for Eseism?
-        -specific ideas pending...
-    -Can I add in Eseism via scripting instead of overriding germanic_religion?
-        -if possible, this would remove compatibility issues...
+Spread Eseism throughout the realm decision
+    -Available if any portion of realm is not of Eseist faith
+    -Randomly make some portion of the realm immediately convert to Eseism
+    -Provides additional special troops
+    -Costs a reasonable amount of piety
+    -10 year cooldown
 
 
-New decisions
-    -Welsh Cultural Exchange
-        -Travel event with a number of difficult skill checks, perhaps benefitting from a higher cultural acceptance...
-        -Upgrades West Germanic Warfare tradition to give access to Longbowmen as well
-    -Norse Germanic Cultural Exchange
-        -Travel event through Scandinavia
-        -If successful, allows for hybridization with Norse even if not present in realm
-    -North Germanic Raiding Journey
-        -Requires player to be culture head, and friendship with North Germanic ruler of Germanic religion capable of raiding overseas
-        -Travel event to this ruler's location
-            -Plan the raid to either Paris, Cordoba, Rome, or Byzantium
-        -Travel event to selected location
-            -Skill checks for success, gain artifacts/gold/etc for success, injuries/etc for failure
-        -Success grants longships innovation, and gives player the raider trait or pillager commander trait
+Screenshots for the Steam page
 
 
-Localization
-    -Why can't I seem to split my single localization file into multiple files?
+Code Cleanup
