@@ -67,7 +67,8 @@
 
 
     cost = {
-        gold = 25
+        gold = 1250
+        prestige = 500
     }
 
 
