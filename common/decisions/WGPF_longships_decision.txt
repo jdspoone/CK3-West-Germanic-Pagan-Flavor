@@ -1,12 +1,12 @@
-﻿norse_longships_decision = {
+﻿longships_decision = {
 
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
     }
 
-    desc = norse_longships_decision_desc
-    selection_tooltip = norse_longships_decision_tooltip
-    confirm_text = norse_longships_decision_confirm
+    desc = longships_decision_desc
+    selection_tooltip = longships_decision_tooltip
+    confirm_text = longships_decision_confirm
 
 
     is_shown = {
@@ -35,7 +35,7 @@
 
         # Friends with a North Germanic ruler following the same religious family as you
         custom_tooltip = {
-            text = norse_longships_decision_friend_requirement
+            text = longships_decision_friend_req
             any_relation = {
                 type = friend
                 is_landed = yes
@@ -57,7 +57,7 @@
         culture = { add_innovation = innovation_longboats }
 
         # Present an event panel for the player
-        trigger_event = norse_longships_event.0001
+        trigger_event = longships_event.0001
     }
 
 
