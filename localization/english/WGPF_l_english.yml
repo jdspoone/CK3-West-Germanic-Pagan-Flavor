@@ -125,3 +125,19 @@ fyrd_skirmishers_flavor:0 "#F Lightly armored warriors raised from the free popu
 culture_parameter_unlock_maa_gesithas:0 "Can recruit [GetMaA('gesithas').GetName] as [men_at_arms|E]"
 culture_parameter_unlock_maa_fyrd_spearmen:0 "Can recruit [GetMaA('fyrd_spearmen').GetName] as [men_at_arms|E]"
 culture_parameter_unlock_maa_fyrd_skirmishers:0 "Can recruit [GetMaA('fyrd_skirmishers').GetName] as [men_at_arms|E]"
+
+
+canterbury_germanic_temple_decision: "Raise a Germanic Temple at Canterbury"
+canterbury_germanic_temple_decision_desc: "Augustine's cathedral, a powerful symbol of the Christian faith in Britain, could be re-purposed to honor the true Gods of our people."
+canterbury_germanic_temple_decision_tooltip: "Raise a Germanic Temple at Canterbury"
+canterbury_germanic_temple_decision_confirm: "Raise a Germanic Temple at Canterbury"
+
+canterbury_cathedral_req_tooltip: "Some version of the Canterbury Cathedral exists"
+
+building_canterbury_germanic_temple: "Temple of Canterbury"
+building_type_canterbury_germanic_temple: "Temple of Canterbury"
+building_canterbury_germanic_temple_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
+
+canterbury_germanic_temple_event_title: "A new Germanic temple is built"
+canterbury_germanic_temple_event_desc: "Augustine's cathedral has been torn down, and in its place we have erected a magnificent temple, rivalling even the Temple at Uppsala!"
+canterbury_germanic_temple_event_ok: "The Gods are with us!"

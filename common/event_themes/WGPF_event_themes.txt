@@ -24,3 +24,18 @@ norse_longships_event_theme = {
 		reference = fp1_ocean_norse
     }
 }
+
+
+canterbury_germanic_temple_event_theme = {
+	icon = { 
+        reference = "gfx/interface/icons/event_types/type_faith.dds" 
+    }
+    
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_faith"
+	}
+
+    background = {
+		reference = fp1_tribal_temple
+    }
+}

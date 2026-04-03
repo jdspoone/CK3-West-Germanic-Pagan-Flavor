@@ -1,0 +1,105 @@
+﻿canterbury_germanic_temple_decision = {
+
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+    }
+
+
+    desc = canterbury_germanic_temple_decision_desc
+    selection_tooltip = canterbury_germanic_temple_decision_tooltip
+    confirm_text = canterbury_germanic_temple_decision_confirm
+
+
+    is_shown = {
+        # Germanic religion
+        religion = religion:germanic_religion
+
+        # Owning a title within the Kingdom of England
+        OR = {
+            any_held_title = {
+                de_jure_liege = {
+                    de_jure_liege = title:k_england
+                }
+            }
+
+            any_held_title = {
+                de_jure_liege = title:k_england
+            }
+        }
+
+        # Some version of the Canterbury Cathedral exists
+        title:b_canterbury.title_province = {
+            OR = {
+                has_building = holy_site_canterbury_cathedral_01
+                has_building = holy_site_canterbury_cathedral_02
+                has_building = holy_site_canterbury_cathedral_03
+            }
+        }
+    }
+
+
+    is_valid = {
+        # Germanic faith
+        religion = religion:germanic_religion
+
+        # North or West Germanic cultural heritage
+        OR = {
+            culture = { has_cultural_pillar = heritage_north_germanic }
+            culture = { has_cultural_pillar = heritage_west_germanic }
+        }
+
+        # Controls the county of Kent
+		has_title = title:c_kent
+
+        # Some version of the Canterbury Cathedral exists
+        custom_tooltip = {
+            text = canterbury_cathedral_req_tooltip
+
+            title:b_canterbury.title_province = {
+                OR = {
+                    has_building = holy_site_canterbury_cathedral_01
+                    has_building = holy_site_canterbury_cathedral_02
+                    has_building = holy_site_canterbury_cathedral_03
+                }
+            }
+        }
+    }
+
+
+    cost = {
+        gold = 25
+    }
+
+
+    effect = {
+        # Replace the Canterbury Cathedral with the new Canterbury Temple for Germanic faiths
+        title:b_canterbury.title_province = {
+            if = {
+                limit = {
+                    has_building = holy_site_canterbury_cathedral_01
+                }
+                remove_building = holy_site_canterbury_cathedral_01
+            }
+            else_if = {
+                limit = {
+                    has_building = holy_site_canterbury_cathedral_02
+                }
+                remove_building = holy_site_canterbury_cathedral_02
+            }
+            else_if = {
+                limit = {
+                    has_building = holy_site_canterbury_cathedral_03
+                }
+                remove_building = holy_site_canterbury_cathedral_03
+            }
+
+            add_special_building = canterbury_germanic_temple
+        }
+
+        # Present an event panel for the player
+        trigger_event = canterbury_germanic_temple_event.0001
+    }
+
+
+    ai_check_interval = 0
+}
