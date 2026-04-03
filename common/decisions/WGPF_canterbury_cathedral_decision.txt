@@ -1,13 +1,13 @@
-﻿canterbury_christian_cathedral_decision = {
+﻿canterbury_cathedral_decision = {
 
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
     }
 
 
-    desc = canterbury_christian_cathedral_decision_desc
-    selection_tooltip = canterbury_christian_cathedral_decision_tooltip
-    confirm_text = canterbury_christian_cathedral_decision_confirm
+    desc = canterbury_cathedral_decision_desc
+    selection_tooltip = canterbury_cathedral_decision_tooltip
+    confirm_text = canterbury_cathedral_decision_confirm
 
 
     is_shown = {
@@ -70,7 +70,7 @@
         }
 
         # Present an event panel for the player
-        trigger_event = canterbury_christian_cathedral_event.0001
+        trigger_event = canterbury_cathedral_event.0001
     }
 
 

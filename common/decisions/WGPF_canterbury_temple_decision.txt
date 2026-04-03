@@ -1,13 +1,13 @@
-﻿canterbury_germanic_temple_decision = {
+﻿canterbury_temple_decision = {
 
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
     }
 
 
-    desc = canterbury_germanic_temple_decision_desc
-    selection_tooltip = canterbury_germanic_temple_decision_tooltip
-    confirm_text = canterbury_germanic_temple_decision_confirm
+    desc = canterbury_temple_decision_desc
+    selection_tooltip = canterbury_temple_decision_tooltip
+    confirm_text = canterbury_temple_decision_confirm
 
 
     is_shown = {
@@ -98,7 +98,7 @@
         }
 
         # Present an event panel for the player
-        trigger_event = canterbury_germanic_temple_event.0001
+        trigger_event = canterbury_temple_event.0001
     }
 
 

@@ -1,0 +1,18 @@
+﻿namespace = canterbury_cathedral_event
+
+canterbury_cathedral_event.0001 = {
+
+    type = character_event
+    title = canterbury_cathedral_event_title
+    desc = canterbury_cathedral_event_desc
+
+    theme = canterbury_cathedral_event_theme
+
+	left_portrait = {
+		character = root
+	}
+
+    option = {
+        name = canterbury_cathedral_event_ok
+    }
+}

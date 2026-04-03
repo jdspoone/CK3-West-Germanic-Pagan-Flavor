@@ -26,7 +26,7 @@ norse_longships_event_theme = {
 }
 
 
-canterbury_germanic_temple_event_theme = {
+canterbury_temple_event_theme = {
 	icon = { 
         reference = "gfx/interface/icons/event_types/type_faith.dds" 
     }
@@ -41,7 +41,7 @@ canterbury_germanic_temple_event_theme = {
 }
 
 
-canterbury_christian_cathedral_event_theme = {
+canterbury_cathedral_event_theme = {
 	icon = { 
         reference = "gfx/interface/icons/event_types/type_faith.dds" 
     }
