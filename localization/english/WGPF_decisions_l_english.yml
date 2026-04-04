@@ -62,3 +62,21 @@ canterbury_temple_req_tooltip: "The Germanic Temple of Canterbury exists"
 canterbury_cathedral_event_title: "Canterbury Cathedral is restored"
 canterbury_cathedral_event_desc: "Augustine's cathedral has been rebuilt, re-affirming the supremacy of the Christian faith against pagan idolatry in Britain!"
 canterbury_cathedral_event_ok: "God is with us!"
+
+
+# Convert Winchester Minster to Germanic Temple Decision
+winchester_temple_decision: "Re-consecrate the Winchester Minster"
+winchester_temple_decision_desc: "The Winchester Minster is a magnificent structure, but the tombs of the royal line of Wessex should be honored in accordance with the ways of our ancestors!"
+winchester_temple_decision_tooltip: "Re-consecrate the Winchester Minster as a Germanic temple"
+winchester_temple_decision_confirm: "Re-consecrate the Winchester Minster"
+
+canterbury_cathedral_req_tooltip: "The Winchester Minster exists"
+
+building_type_WGPF_winchester_temple: "$building_WGPF_winchester_temple$"
+building_type_WGPF_winchester_temple_desc: "$building_WGPF_winchester_temple_desc$"
+building_WGPF_winchester_temple: "Winchester Temple"
+building_WGPF_winchester_temple_desc: "The great Winchester Minster has been re-consecrated to the Gods."
+
+winchester_temple_event_title: "Winchester Minster is re-consecrated"
+winchester_temple_event_desc: "The Winchester Minster has been re-consecrated as a temple to the true Gods."
+winchester_temple_event_ok: "The Gods are with us!"

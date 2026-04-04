@@ -77,3 +77,44 @@
 	flag = holy_building
 	flag = religious_studies_location
 }
+
+
+WGPF_winchester_temple = {
+
+	type_icon = "icon_structure_cathedral_pagan.dds"
+
+	asset = {
+		type = pdxmesh
+		name = winchester_minster_mesh
+	}
+
+	cost_gold = main_building_tier_1_cost
+
+	construction_time = slow_construction_time
+
+	can_construct = {
+		religion = religion:germanic_religion
+	}
+
+	is_enabled = {
+		religion = religion:germanic_religion
+	}
+
+	character_modifier = { 
+		independent_ruler_opinion = 5
+		monthly_piety_gain_per_legitimacy_level_add = 0.02
+	}
+
+	county_modifier = {
+		tax_mult = 0.1 
+		monthly_county_control_growth_at_war_factor = 0.2
+	}
+
+	ai_value = {
+		base = 100
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
