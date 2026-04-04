@@ -12,7 +12,7 @@
 
     is_shown = {
         # Christian religion
-        religion = religion:christian_religion
+        religion = religion:christianity_religion
 
         # Owning a title within the Kingdom of England
         OR = {
@@ -40,7 +40,7 @@
 
     is_valid = {
         # Christian faith
-        religion = religion:christian_religion
+        religion = religion:christianity_religion
 
         # Controls the county of Kent
 		has_title = title:c_kent
