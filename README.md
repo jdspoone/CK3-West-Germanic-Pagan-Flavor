@@ -1,4 +1,4 @@
-# West Germanic Pagan Flavor - **Updated for Crusader Kings 1.19**
+# West Germanic Pagan Flavor - **Updated for Crusader Kings 3 v1.19**
 A simple mod attempting to add a bit more flavour for West Germanic (e.g. Anglo-Saxon) pagans. 
 
 ## Current Features
