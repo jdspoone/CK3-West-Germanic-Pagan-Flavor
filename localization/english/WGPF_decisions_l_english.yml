@@ -74,7 +74,7 @@ canterbury_cathedral_req_tooltip: "The Winchester Minster exists"
 
 building_type_WGPF_winchester_temple: "$building_WGPF_winchester_temple$"
 building_type_WGPF_winchester_temple_desc: "$building_WGPF_winchester_temple_desc$"
-building_WGPF_winchester_temple: "Winchester Temple"
+building_WGPF_winchester_temple: "Winchester Minster (Germanic Pagan)"
 building_WGPF_winchester_temple_desc: "The great Winchester Minster has been re-consecrated to the Gods."
 
 winchester_temple_event_title: "Winchester Minster is re-consecrated"
