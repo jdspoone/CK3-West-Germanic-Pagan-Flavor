@@ -6,7 +6,7 @@ canterbury_cathedral_event.0001 = {
     title = canterbury_cathedral_event_title
     desc = canterbury_cathedral_event_desc
 
-    theme = canterbury_cathedral_event_theme
+    theme = christian_religious_event_theme
 
 	left_portrait = {
 		character = root

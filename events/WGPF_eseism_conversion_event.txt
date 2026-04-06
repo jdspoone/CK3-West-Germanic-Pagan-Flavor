@@ -6,7 +6,7 @@ eseism_conversion_event.0001 = {
     title = eseism_conversion_event_title
     desc = eseism_conversion_event_desc
 
-    theme = eseism_conversion_event_theme
+    theme = germanic_religious_event_theme
 
 	left_portrait = {
 		character = root

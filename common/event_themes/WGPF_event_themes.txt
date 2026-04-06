@@ -1,5 +1,4 @@
-﻿eseism_conversion_event_theme = {
-
+﻿germanic_religious_event_theme = {
 	icon = { 
         reference = "gfx/interface/icons/event_types/type_faith.dds" 
     }
@@ -14,34 +13,7 @@
 }
 
 
-longships_event_theme = {
-
-	icon = { 
-        reference = "gfx/interface/icons/event_types/type_generic.dds" 
-    }
-    
-	background = {
-		reference = fp1_ocean_norse
-    }
-}
-
-
-canterbury_temple_event_theme = {
-	icon = { 
-        reference = "gfx/interface/icons/event_types/type_faith.dds" 
-    }
-    
-	sound = {
-		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_faith"
-	}
-
-    background = {
-		reference = fp1_tribal_temple
-    }
-}
-
-
-canterbury_cathedral_event_theme = {
+christian_religious_event_theme = {
 	icon = { 
         reference = "gfx/interface/icons/event_types/type_faith.dds" 
     }
@@ -56,16 +28,13 @@ canterbury_cathedral_event_theme = {
 }
 
 
-winchester_temple_event_theme = {
+longships_event_theme = {
+
 	icon = { 
-        reference = "gfx/interface/icons/event_types/type_faith.dds" 
+        reference = "gfx/interface/icons/event_types/type_generic.dds" 
     }
     
-	sound = {
-		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_faith"
-	}
-
-    background = {
-		reference = fp1_tribal_temple
+	background = {
+		reference = fp1_ocean_norse
     }
 }
