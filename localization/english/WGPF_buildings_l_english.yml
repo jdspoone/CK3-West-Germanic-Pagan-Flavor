@@ -1,0 +1,13 @@
+﻿l_english:
+
+# Converted Canterbury Cathedral
+building_type_WGPF_canterbury_temple: "$building_WGPF_canterbury_temple$"
+building_type_WGPF_canterbury_temple_desc: "$building_WGPF_canterbury_temple_desc$"
+building_WGPF_canterbury_temple: "Temple of Canterbury"
+building_WGPF_canterbury_temple_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
+
+# Converted Winchester Minster
+building_type_WGPF_winchester_temple: "$building_WGPF_winchester_temple$"
+building_type_WGPF_winchester_temple_desc: "$building_WGPF_winchester_temple_desc$"
+building_WGPF_winchester_temple: "Winchester Minster (Germanic Pagan)"
+building_WGPF_winchester_temple_desc: "The great Winchester Minster has been re-consecrated to the Gods."
