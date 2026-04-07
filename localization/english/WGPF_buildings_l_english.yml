@@ -10,4 +10,4 @@ building_WGPF_canterbury_temple_desc: "Erected on the site of the former cathedr
 building_type_WGPF_winchester_temple: "$building_WGPF_winchester_temple$"
 building_type_WGPF_winchester_temple_desc: "$building_WGPF_winchester_temple_desc$"
 building_WGPF_winchester_temple: "Winchester Minster (Germanic Pagan)"
-building_WGPF_winchester_temple_desc: "The great Winchester Minster has been re-consecrated to the Gods."
+building_WGPF_winchester_temple_desc: "The great Winchester Minster has been re-consecrated to the old Gods."
