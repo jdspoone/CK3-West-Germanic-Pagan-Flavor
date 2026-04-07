@@ -70,3 +70,16 @@ canterbury_cathedral_req_tooltip: "The Winchester Minster exists"
 winchester_temple_event_title: "Winchester Minster is re-consecrated"
 winchester_temple_event_desc: "The Winchester Minster has been re-consecrated as a temple to the true Gods."
 winchester_temple_event_ok: "The Gods are with us!"
+
+
+# Convert Winchester Temple back to Winchester Minster Decision
+winchester_minster_decision: "Restore the Winchester Minster"
+winchester_minster_decision_desc: "The pagans have desecrated the Winchester Minster, we must restore it!"
+winchester_minster_decision_tooltip: "Restore the Winchester Minster"
+winchester_minster_decision_confirm: "Restore the Winchester Minster"
+
+winchester_minster_req_tooltip: "The Winchester Minster (Germanic Pagan) exists"
+
+winchester_minster_event_title: "Winchester Minster is restored"
+winchester_minster_event_desc: "The Winchester Minster has been been restored to the Christian faith!"
+winchester_minster_event_ok: "God is with us!"
