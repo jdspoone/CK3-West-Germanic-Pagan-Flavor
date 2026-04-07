@@ -65,7 +65,7 @@ winchester_temple_decision_desc: "The Winchester Minster is a magnificent struct
 winchester_temple_decision_tooltip: "Re-consecrate the Winchester Minster as a Germanic temple"
 winchester_temple_decision_confirm: "Re-consecrate the Winchester Minster"
 
-canterbury_cathedral_req_tooltip: "The Winchester Minster exists"
+winchester_temple_req_tooltip: "The Winchester Minster exists"
 
 winchester_temple_event_title: "Winchester Minster is re-consecrated"
 winchester_temple_event_desc: "The Winchester Minster has been re-consecrated as a temple to the true Gods."
