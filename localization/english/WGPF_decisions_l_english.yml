@@ -34,52 +34,52 @@ longships_event_ok: "Discover the secret of Norse longships"
 
 
 # Convert Canterbury Cathedral to Germanic Temple Decision
-canterbury_temple_decision: "Raise a Germanic Temple at Canterbury"
-canterbury_temple_decision_desc: "Augustine's cathedral, a powerful symbol of the Christian faith in Britain, could be re-purposed to honor the true Gods of our people."
-canterbury_temple_decision_tooltip: "Raise a Germanic Temple at Canterbury"
-canterbury_temple_decision_confirm: "Raise a Germanic Temple at Canterbury"
+canterbury_cathedral_germanic_conversion_decision: "Raise a Germanic Temple at Canterbury"
+canterbury_cathedral_germanic_conversion_decision_desc: "Augustine's cathedral, a powerful symbol of the Christian faith in Britain, could be re-purposed to honor the true Gods of our people."
+canterbury_cathedral_germanic_conversion_decision_tooltip: "Raise a Germanic Temple at Canterbury"
+canterbury_cathedral_germanic_conversion_decision_confirm: "Raise a Germanic Temple at Canterbury"
 
-canterbury_cathedral_req_tooltip: "Some version of the Canterbury Cathedral exists"
+canterbury_cathedral_germanic_conversion_req_tooltip: "Some version of the Canterbury Cathedral exists"
 
-canterbury_temple_event_title: "A new Germanic temple is built"
-canterbury_temple_event_desc: "Augustine's cathedral has been torn down, and in its place we have erected a magnificent temple, rivalling even the Temple at Uppsala!"
-canterbury_temple_event_ok: "The Gods are with us!"
+canterbury_cathedral_germanic_conversion_event_title: "A new Germanic temple is built"
+canterbury_cathedral_germanic_conversion_event_desc: "Augustine's cathedral has been torn down, and in its place we have erected a magnificent temple, rivalling even the Temple at Uppsala!"
+canterbury_cathedral_germanic_conversion_event_ok: "The Gods are with us!"
 
 
 # Convert Germanic Temple of Canterbury back to the Canterbury Cathedral
-canterbury_cathedral_decision: "Restore the Canterbury Cathedral"
-canterbury_cathedral_decision_desc: "Augustine's cathedral has been defiled by the pagans, but we can restore it!"
-canterbury_cathedral_decision_tooltip: "Restore the Canterbury Cathedral"
-canterbury_cathedral_decision_confirm: "Restore the Canterbury Cathedral"
+canterbury_cathedral_christian_conversion_decision: "Restore the Canterbury Cathedral"
+canterbury_cathedral_christian_conversion_decision_desc: "Augustine's cathedral has been defiled by the pagans, but we can restore it!"
+canterbury_cathedral_christian_conversion_decision_tooltip: "Restore the Canterbury Cathedral"
+canterbury_cathedral_christian_conversion_decision_confirm: "Restore the Canterbury Cathedral"
 
-canterbury_temple_req_tooltip: "The Germanic Temple of Canterbury exists"
+canterbury_cathedral_christian_conversion_req_tooltip: "The Germanic Temple of Canterbury exists"
 
-canterbury_cathedral_event_title: "Canterbury Cathedral is restored"
-canterbury_cathedral_event_desc: "Augustine's cathedral has been rebuilt, re-affirming the supremacy of the Christian faith against pagan idolatry in Britain!"
-canterbury_cathedral_event_ok: "God is with us!"
+canterbury_cathedral_christian_conversion_event_title: "Canterbury Cathedral is restored"
+canterbury_cathedral_christian_conversion_event_desc: "Augustine's cathedral has been rebuilt, re-affirming the supremacy of the Christian faith against pagan idolatry in Britain!"
+canterbury_cathedral_christian_conversion_event_ok: "God is with us!"
 
 
 # Convert Winchester Minster to Germanic Temple Decision
-winchester_temple_decision: "Re-consecrate the Winchester Minster"
-winchester_temple_decision_desc: "The Winchester Minster is a magnificent structure, but the tombs of the royal line of Wessex should be honored in accordance with the ways of our ancestors!"
-winchester_temple_decision_tooltip: "Re-consecrate the Winchester Minster as a Germanic temple"
-winchester_temple_decision_confirm: "Re-consecrate the Winchester Minster"
+winchester_minster_germanic_conversion_decision: "Re-consecrate the Winchester Minster"
+winchester_minster_germanic_conversion_decision_desc: "The Winchester Minster is a magnificent structure, but the tombs of the royal line of Wessex should be honored in accordance with the ways of our ancestors!"
+winchester_minster_germanic_conversion_decision_tooltip: "Re-consecrate the Winchester Minster as a Germanic temple"
+winchester_minster_germanic_conversion_decision_confirm: "Re-consecrate the Winchester Minster"
 
-winchester_temple_req_tooltip: "The Winchester Minster exists"
+winchester_minster_germanic_conversion_req_tooltip: "The Winchester Minster exists"
 
-winchester_temple_event_title: "Winchester Minster is re-consecrated"
-winchester_temple_event_desc: "The Winchester Minster has been re-consecrated as a temple to the true Gods."
-winchester_temple_event_ok: "The Gods are with us!"
+winchster_minster_germanic_conversion_event_title: "Winchester Minster is re-consecrated"
+winchster_minster_germanic_conversion_event_desc: "The Winchester Minster has been re-consecrated as a temple to the true Gods."
+winchster_minster_germanic_conversion_event_ok: "The Gods are with us!"
 
 
 # Convert Winchester Temple back to Winchester Minster Decision
-winchester_minster_decision: "Restore the Winchester Minster"
-winchester_minster_decision_desc: "The pagans have desecrated the Winchester Minster, we must restore it!"
-winchester_minster_decision_tooltip: "Restore the Winchester Minster"
-winchester_minster_decision_confirm: "Restore the Winchester Minster"
+winchester_minster_christian_conversion_decision: "Restore the Winchester Minster"
+winchester_minster_christian_conversion_decision_desc: "The pagans have desecrated the Winchester Minster, we must restore it!"
+winchester_minster_christian_conversion_decision_tooltip: "Restore the Winchester Minster"
+winchester_minster_christian_conversion_decision_confirm: "Restore the Winchester Minster"
 
-winchester_minster_req_tooltip: "The Winchester Minster (Germanic Pagan) exists"
+winchester_minster_christian_conversion_req_tooltip: "The Winchester Minster (Germanic Pagan) exists"
 
-winchester_minster_event_title: "Winchester Minster is restored"
-winchester_minster_event_desc: "The Winchester Minster has been been restored to the Christian faith!"
-winchester_minster_event_ok: "God is with us!"
+winchster_minster_christian_conversion_event_title: "Winchester Minster is restored"
+winchster_minster_christian_conversion_event_desc: "The Winchester Minster has been been restored to the Christian faith!"
+winchster_minster_christian_conversion_event_ok: "God is with us!"

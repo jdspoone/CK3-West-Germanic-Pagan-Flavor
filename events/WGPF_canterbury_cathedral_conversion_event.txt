@@ -1,0 +1,37 @@
+﻿namespace = canterbury_cathedral_conversion_event
+
+
+canterbury_cathedral_conversion_event.0001 = {
+
+    type = character_event
+    title = canterbury_cathedral_germanic_conversion_event_title
+    desc = canterbury_cathedral_germanic_conversion_event_desc
+
+    theme = germanic_religious_event_theme
+
+	left_portrait = {
+		character = root
+	}
+
+    option = {
+        name = canterbury_cathedral_germanic_conversion_event_ok
+    }
+}
+
+
+canterbury_cathedral_conversion_event.0002 = {
+
+    type = character_event
+    title = canterbury_cathedral_christian_conversion_event_title
+    desc = canterbury_cathedral_christian_conversion_event_desc
+
+    theme = christian_religious_event_theme
+
+	left_portrait = {
+		character = root
+	}
+
+    option = {
+        name = canterbury_cathedral_christian_conversion_event_ok
+    }
+}

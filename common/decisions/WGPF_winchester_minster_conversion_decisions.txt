@@ -1,0 +1,134 @@
+﻿winchester_minster_germanic_conversion_decision = {
+
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+    }
+
+
+    desc = winchester_minster_germanic_conversion_decision_desc
+    selection_tooltip = winchester_minster_germanic_conversion_decision_tooltip
+    confirm_text = winchester_minster_germanic_conversion_decision_confirm
+
+
+    is_shown = {
+        # Germanic religion
+        religion = religion:germanic_religion
+
+        # Owning a title within Britannia
+		any_held_title = {
+			title_province = { geographical_region = world_europe_west_britannia }
+		}
+
+        # The Winchester Minster exists
+        title:b_winchester.title_province = {
+            has_building = MA_winchester_minster
+        }
+    }
+
+
+    is_valid = {
+        # Germanic faith
+        religion = religion:germanic_religion
+
+        # Controls the county of Hampton
+		has_title = title:c_hampton
+
+        # The Winchester Minster
+        custom_tooltip = {
+            text = winchester_minster_germanic_conversion_req_tooltip
+
+            title:b_winchester.title_province = {
+                has_building = MA_winchester_minster
+            }
+        }
+    }
+
+
+    cost = {
+        gold = 1000
+        prestige = 500        
+    }
+
+
+    effect = {
+        # Replace the Winchester Minster with the Winchester Temple
+        title:b_winchester.title_province = {
+            remove_building = MA_winchester_minster
+            add_special_building = WGPF_winchester_temple
+        }
+
+        # Present an event panel for the player
+        trigger_event = winchester_minster_conversion_event.0001
+    }
+
+
+    ai_check_interval = 0
+}
+
+
+winchester_minster_christian_conversion_decision = {
+
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+    }
+
+
+    desc = winchester_minster_christian_conversion_decision_desc
+    selection_tooltip = winchester_minster_christian_conversion_decision_tooltip
+    confirm_text = winchester_minster_christian_conversion_decision_confirm
+
+
+    is_shown = {
+        # Christian religion
+        religion = religion:christianity_religion
+
+        # Owning a title within Britannia
+		any_held_title = {
+			title_province = { geographical_region = world_europe_west_britannia }
+		}
+
+        # The Winchester Minster has been turned into a Germanic Temple
+        title:b_winchester.title_province = {
+            has_building = WGPF_winchester_temple
+        }
+    }
+
+
+    is_valid = {
+        # Christian religion
+        religion = religion:christianity_religion
+
+        # Controls the county of Hampton
+		has_title = title:c_hampton
+
+        # The Winchester Minster has been turned into a Germanic Temple
+        custom_tooltip = {
+            text = winchester_minster_christian_conversion_req_tooltip
+
+            title:b_winchester.title_province = {
+            has_building = WGPF_winchester_temple
+            }
+        }
+    }
+
+
+    cost = {
+        gold = 1000
+        prestige = 500        
+    }
+
+
+    effect = {
+        # Replace the Winchester Temple with the Winchester Minster
+        title:b_winchester.title_province = {
+            remove_building = WGPF_winchester_temple
+            add_special_building = MA_winchester_minster
+        }
+
+        # Present an event panel for the player
+        trigger_event = winchester_minster_conversion_event.0002
+    }
+
+
+    ai_check_interval = 0
+}
