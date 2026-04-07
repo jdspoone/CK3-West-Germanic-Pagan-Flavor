@@ -81,7 +81,7 @@
 
 WGPF_winchester_temple = {
 
-	type_icon = "icon_structure_cathedral_pagan.dds"
+	type_icon = "icon_structure_wawel_cathedral.dds"
 
 	asset = {
 		type = pdxmesh
