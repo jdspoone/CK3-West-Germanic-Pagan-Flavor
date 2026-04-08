@@ -1,4 +1,5 @@
-﻿canterbury_cathedral_germanic_conversion_decision = {
+﻿# Decision to convert the Canterbury Cathedral into a Great Temple usable by Germanic pagans
+canterbury_cathedral_germanic_conversion_decision = {
 
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
@@ -98,6 +99,7 @@
 }
 
 
+# Decision to restore the previously converted Canterbury Cathedral back to its original Christian state
 canterbury_cathedral_christian_conversion_decision = {
 
     picture = {
