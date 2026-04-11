@@ -1,5 +1,5 @@
 # West Germanic Pagan Flavor - **Updated for Crusader Kings 3 v1.19**
-A simple mod attempting to add a bit more flavour for West Germanic (e.g. Anglo-Saxon) pagans. 
+A simple mod attempting to add a bit more flavour for West Germanics (i.e. Anglo-Saxons) and Germanic pagans. 
 
 ## Current Features
 
@@ -9,10 +9,8 @@ West Germanic cultures now have access to a new cultural tradition **West German
 ### **Eseism** - New West Germanic Pagan Faith 
 Inspired by [The Fallen Eagle](https://steamcommunity.com/workshop/filedetails/?id=2243307127), this mod adds a new West Germanic pagan faith, **Eseism**, within the broader Germanic Religion.
 
-### Longship Funeral Tradition for Germanic Pagan Faiths
-Germanic faiths, namely Asatru and Eseism, now have a new funeral tradition, Longship Funerals.
-
-At present the Longship Funeral tradition is just a clone of the Cremation funeral tradition, but I am planning to implement new longship-focused funeral content.
+### Longship Funerals - New Funeral Tradition for Germanic Faiths
+Inspired by the ship burials at Sutton Hoo, Germanic faiths now have a new funeral tradition, Longship Funerals! Lay the deceased to rest in a longship and raise a barrow mound above it, potentially engaging in human sacrifice along the way.
 
 ### West Germanic / Eseist Related Decisions
 
@@ -25,7 +23,7 @@ The historical record would indicate that Anglo-Saxon lords would intermittently
 Rulers of a Germanic faith can replace the Canterbury Cathedral with a Germanic Temple. An equivalent but inverted decision exists for Christian rulers to restore the Canterbury Cathedral to its original state.
 
 ### Re-consecrate Winchester Minster as a Germanic Temple
-If [Medieval Arts](https://steamcommunity.com/sharedfiles/filedetails/?id=2452585382) is in your modlist, rulers of a Germanic faith can re-consecrate the Winchester Minster as a Germanic Temple, allowing you to not only enjoy the fantastic 3D model by PiGu, but to reap the benefits of the special building without being of a Christian faith!
+If [Medieval Arts](https://steamcommunity.com/sharedfiles/filedetails/?id=2452585382) is in your modlist, rulers of a Germanic faith can re-consecrate the Winchester Minster as a Germanic Temple, allowing you to not only enjoy the fantastic 3D model by PiGu, but to reap the benefits of the special building without being of a Christian faith! An equivalent but inverted decision exists for Christian rulers to restore the Winchester Minster to its original state.
 
 #### Discover Norse Longships
 West Germanic rulers who are friends with a North Germanic ruler of a faith within the same religious family can discover the Longships innovation for their culture.
@@ -33,9 +31,12 @@ West Germanic rulers who are friends with a North Germanic ruler of a faith with
 At present this decision is fairly simple, but I plan to extend it to include a travel event involving a number of skill checks which will determine the success or failure of the event.
 
 ## Dependencies and Recommendations
-This mod makes use of content from the [Northern Lords DLC](https://store.steampowered.com/app/1303183/Crusader_Kings_III_Northern_Lords/).
+This mod does not have any DLC dependcies, however it does make use of and extend some features adding by the following DLCs:
 
-While not required, I strongly recommend using this mod alongside the following mods:
+- Art assets from and tenets introduced in [The Northern Lords](https://store.steampowered.com/app/1303183/Crusader_Kings_III_Northern_Lords/) are used if available.
+- The new Longship Funeral Tradition and associated funeral events are not accessible without [Legends of the Dead](https://store.steampowered.com/app/2671060/Crusader_Kings_III_Legends_of_the_Dead/).
+
+While not strictly-speaking required, I strongly recommend using this mod alongside the following other mods:
 - [Medieval Arts](https://steamcommunity.com/sharedfiles/filedetails/?id=2452585382)
 - [Anglo Saxon Flavorization](https://steamcommunity.com/sharedfiles/filedetails/?id=3630785964)
 
@@ -44,8 +45,9 @@ This mod overrides the following definitions:
 - *hostility_group* in *common/religion/doctrine_group_types/00_doctrine_group_types.txt*
 - *doctrine_funeral* in *common/religion/doctrine_group_types/00_doctrine_group_types.txt*
 - *germanic_religion* in *common/religion/religions/00_germanic.txt*, and associated English language localizations
-- *activity_funeral* in *common_activities/activity_types/funeral.txt*
-Any other mods overriding these same definitions will likely be incompatible.
+- *common/events/activities/funeral_activity.txt* in its entirety
+- *common/on_action/dlc/ce1/ce1_funeral_on_actions.txt* in its entirety
+Any other mods overriding these same definitions/files will likely be incompatible.
 
 ## Credits
 - [The Fallen Eagle](https://steamcommunity.com/workshop/filedetails/?id=2243307127)'s implementation of Eseism was used as a guide for my own, and I have used their Eseism-specific English localizations without changes.
