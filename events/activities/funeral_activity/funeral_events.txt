@@ -21,6 +21,8 @@ namespace = funeral
 # funeral.1130 - Stoic and bewailment funeral, a moment to mourn
 # funeral.1140 - Soulmate gets quite upset about the death of their soulmate
 
+# funeral.1150 - 
+
 ####################################
 # FUNERAL INTERRUPTION NOTIFICATIONS
 # 0000-0999
@@ -3769,6 +3771,124 @@ funeral.1140 = {
 				ai_energy = -2.5
 				ai_zeal = -2.5
 			}
+		}
+	}
+
+	after = {
+		remove_character_flag = busy_in_banquet_event
+	}
+}
+
+# New Longship Funeral Event
+# Restricted to Longship funerals and where the faith allows human sacrifice
+funeral.1150 = {
+	type = activity_event
+	title = funeral.1150.t
+	desc = {
+		desc = funeral.1150.desc.intro
+		desc = funeral.1150.desc.outro
+	}
+
+	immediate = {
+		create_character = {
+			gender_female_chance = 50
+			culture = root.culture
+			faith = root.faith
+			random_traits = yes
+			location = root.location
+			dynasty = none
+			employer = root
+
+			save_scope_as = sacrificial_slave
+		}
+	}
+
+	theme = funeral_activity
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	right_portrait = {
+		character = scope:sacrificial_slave
+		animation = grief
+	}
+
+	# Cooldown largely to prevent this event firing more than once during the same funeral
+	cooldown = { years = 5 }
+
+	trigger = {
+		AND = {
+			faith = { has_doctrine_parameter = longship_funeral }
+			OR = {
+				faith = { has_doctrine = tenet_gruesome_festivals }
+				faith = { has_doctrine = tenet_human_sacrifice }
+			}
+		}
+	}
+
+	# Sacrifice the thrall
+	option = { 
+		name = funeral.1150.a
+		reason = faith
+
+		scope:sacrificial_slave = {
+			death = { death_reason = death_execution }
+		}
+		
+		add_piety = medium_piety_gain
+
+		# Zealous or sadistic characters will lose stress by sacrificing the thrall
+		if = {
+			limit = {
+				OR = {
+					has_trait = zealous
+					has_trait = sadistic
+				}
+			}
+			add_stress = medium_stress_loss
+		}
+		# Compassionate or forgiving characters will gain stress by sacrificing the thrall
+		if = {
+			limit = {
+				OR = {
+					has_trait = compassionate
+					has_trait = forgiving
+				}
+			}
+			add_stress = medium_stress_gain
+		}
+	}
+
+	# Spare the thrall
+	option = {
+		name = funeral.1150.b
+		reason = faith
+		add_piety = medium_piety_loss
+
+		# The slave will become loyal, and be retained as a character in court
+		scope:sacrificial_slave = {
+			add_trait = loyal
+		}
+
+		# Zealous or sadistic characters will gain stress by sparing the thrall
+		if = {
+			limit = {
+				OR = {
+					has_trait = zealous
+					has_trait = sadistic
+				}
+			}
+			add_stress = medium_stress_gain
+		}
+		# Compassionate or forgiving characters will lose stress by sparing the thrall
+		if = {
+			limit = {
+				OR = {
+					has_trait = compassionate
+					has_trait = forgiving
+				}
+			}
+			add_stress = medium_stress_loss
 		}
 	}
 

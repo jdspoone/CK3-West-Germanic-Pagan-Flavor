@@ -14,3 +14,11 @@ funeral.0100.e: "Let [deceased.GetFirstName] rest undisturbed in [deceased.GetHe
 
 funeral.0101.desc.intro2.longship: "$funeral.0100.desc.intro2.longship$"
 funeral.0101.desc.outro.longship: "$funeral.0100.desc.outro.longship$"
+
+
+# Human Sacrifice event during the Longship Funeral
+funeral.1150.t: "Human Sacrifice"
+funeral.1150.desc.intro: "Tradition demands that [deceased.GetFirstName]'s burial longship be sanctified with a human sacrifice."
+funeral.1150.desc.outro: "A slave kneels dejectedly before you. What shall [sacrificial_slave.GetHerHis] fate be?"
+funeral.1150.a: "Sacrifice the thrall"
+funeral.1150.b: "Spare the thrall"
