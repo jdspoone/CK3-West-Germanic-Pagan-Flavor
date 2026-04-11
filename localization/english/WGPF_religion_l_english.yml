@@ -71,9 +71,3 @@ holy_site_warwick_effect_name: "From [holy_site|E] #weak ($holy_site_warwick_nam
 
 holy_site_edinburgh_name: "Edinburgh"
 holy_site_edinburgh_effect_name: "From [holy_site|E] #weak ($holy_site_edinburgh_name$)#!"
-
-
-# Longship Funeral Tradition
-doctrine_parameter_longship_funeral: "The [funeral|E] [activity|E] costs greatly reduced [gold|E]"
-doctrine_funeral_longship_name: "Longship Funeral"
-doctrine_funeral_longship_desc: "We are a seafaring people, and our great heroes deserve to be laid to rest in mighty longships."

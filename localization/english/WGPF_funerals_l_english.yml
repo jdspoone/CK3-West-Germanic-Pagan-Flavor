@@ -1,0 +1,16 @@
+﻿l_english:
+
+# Longship Funeral Tradition
+doctrine_parameter_longship_funeral: "The [funeral|E] [activity|E] grants additional [prestige|E] and [piety|E]"
+doctrine_funeral_longship_name: "Longship Funeral"
+doctrine_funeral_longship_desc: "We are a seafaring people, and our great heroes deserve to be laid to rest in mighty longships."
+
+
+# Longship Funeral events
+funeral.0100.desc.intro2.longship: "A mighty longship has been laboriously carried to rest in a prepared trench. [deceased.GetFirstName]'s body is placed with great care on a slab resting on the deck. [deceased.GetFirstName] is clad in helm and fine mail, with weapons at [deceased.GetHerHis] side and shield upon [deceased.GetHerHis] chest."
+funeral.0100.desc.outro.longship: "I give the command, and [deceased.GetFirstName]'s' longship is finally buried. A great barrow mound is raised above it, marking [deceased.GetFirstName]'s final resting place."
+
+funeral.0100.e: "Let [deceased.GetFirstName] rest undisturbed in [deceased.GetHerHis] barrow forevermore."
+
+funeral.0101.desc.intro2.longship: "$funeral.0100.desc.intro2.longship$"
+funeral.0101.desc.outro.longship: "$funeral.0100.desc.outro.longship$"
