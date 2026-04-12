@@ -263,9 +263,9 @@
 			icon = custom_faith_fp1_odins_ravens
 			reformed_icon = eseism_reformed
 
-			holy_site = ipswich
 			holy_site = warwick
 			holy_site = edinburgh
+			holy_site = zeeland
 			holy_site = lejre
 			holy_site = paderborn
 

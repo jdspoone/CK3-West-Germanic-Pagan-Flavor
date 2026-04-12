@@ -63,9 +63,6 @@ holy_order_tiws_sworn_followers: "Tiwgesithas"
 
 
 # Eseist Holy Sites
-holy_site_ipswich_name: "Ipswich"
-holy_site_ipswich_effect_name: "From [holy_site|E] #weak ($holy_site_ipswich_name$)#!"
-
 holy_site_warwick_name: "Brentford"
 holy_site_warwick_effect_name: "From [holy_site|E] #weak ($holy_site_warwick_name$)#!"
 
