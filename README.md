@@ -10,7 +10,7 @@ West Germanic cultures now have access to a new cultural tradition **West German
 Inspired by [The Fallen Eagle](https://steamcommunity.com/workshop/filedetails/?id=2243307127), this mod adds a new West Germanic pagan faith, **Eseism**, within the broader Germanic Religion.
 
 ### Longship Funerals - New Funeral Tradition for Germanic Faiths
-Inspired by the ship burials at Sutton Hoo, Germanic faiths now have a new funeral tradition, Longship Funerals! Lay the deceased to rest in a longship and raise a barrow mound above it, potentially engaging in human sacrifice along the way.
+Inspired by the ship burials at Sutton Hoo, Germanic faiths now have a new funeral tradition, Longship Funerals! Lay the deceased to rest in a longship and raise a barrow mound above it, potentially engaging in human sacrifice along the way. Longship funerals given increased prestige and piety rewards, and give a positive modifier to the host county on completion.
 
 ### West Germanic / Eseist Related Decisions
 
@@ -32,7 +32,6 @@ At present this decision is fairly simple, but I plan to extend it to include a 
 
 ## Dependencies and Recommendations
 This mod does not have any DLC dependcies, however it does make use of and extend some features adding by the following DLCs:
-
 - Art assets from and tenets introduced in [The Northern Lords](https://store.steampowered.com/app/1303183/Crusader_Kings_III_Northern_Lords/) are used if available.
 - The new Longship Funeral Tradition and associated funeral events are not accessible without [Legends of the Dead](https://store.steampowered.com/app/2671060/Crusader_Kings_III_Legends_of_the_Dead/).
 
