@@ -1,12 +1,12 @@
 ﻿l_english:
 
 # West Germanic Warfare Cultural Tradition
-tradition_west_germanic_warfare_name:0 "West Germanic Warfare"
-tradition_west_germanic_warfare_desc:0 "Where has the horse gone? Where the man? Where the giver of gold?\nWhere is the feating place? And where the pleasures of the hall?"
+tradition_west_germanic_warfare_name: "West Germanic Warfare"
+tradition_west_germanic_warfare_desc: "Where has the horse gone? Where the man? Where the giver of gold?\nWhere is the feating place? And where the pleasures of the hall?"
 
 
 # West Germanic Men-at-Arms
-gesithas:0 "Gesithas"
-gesithas_flavor:0 "#F Gesithas are a lord's sworn companions, and form the elite of Germanic armies.#!"
+gesithas: "Gesithas"
+gesithas_flavor: "#F Gesithas are a lord's sworn companions, and form the elite of Germanic armies.#!"
 
-culture_parameter_unlock_maa_gesithas:0 "Can recruit [GetMaA('gesithas').GetName] as [men_at_arms|E]"
+culture_parameter_unlock_maa_gesithas: "Can recruit [GetMaA('gesithas').GetName] as [men_at_arms|E]"
