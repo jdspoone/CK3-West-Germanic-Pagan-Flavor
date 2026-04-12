@@ -1,11 +1,21 @@
 Special building conversion decisions
-    -Restore the Winchester Minster (Germanic -> Christian)
+    -Improve statistics of Canterbury Temple
+    -Enable AI rulers to use special building conversion decisions
+    -Taking the decision should also grant a large piety bonus
+
+
+New unique Legend available to West Germanics
+    -Bretanwalda? Success gives claims to Empire of Britannia
+    -could probably use the Sons of Ragnar legend as a template...
+
+
+New unique formable Hegemony?
+    -Brittania, Scandinavia, and Germania empire titles
 
 
 Longship Funeral Tradition
-    -Always give the option to sacrifice an artifact for additional bonuses
-    -If held on a coastal barony, give option to launch longship out to sea
-    -Otherwise, give option to bury longship in a barrow mound
+    -There already exists an event to sacrifice an artifact at the funeral...
+        -Create another version of this event, limiting availability to longship funerals, extra rewards?
 
 
 West Germanic Warfare cultural tradition
@@ -26,7 +36,26 @@ Spread Eseism throughout the realm decision
     -10 year cooldown
 
 
+Decision to create an Eseist version of the Jomsvikings...
+    -name pending...
+    -modify the existing Jomsviking decision to restrict it to Asatru characters, not just unreformed Germanics...
+
+
+Restore Hadrian's Wall decision
+    -Control the Duchy of Northumbria
+    -Replace wall special building with a new special building that gives:
+        -increased fort level
+        -increased raid time
+        -increased control gain
+        -increased travel safety
+
+
+Improve Offa's Dyke decision
+    -Increase fort level, bonuses to stationed MaA, travel safety...
+
+
 Screenshots for the Steam page
 
 
 Code Cleanup
+    -utility functions, can I define some to eliminate some unnecessary redundancy...
