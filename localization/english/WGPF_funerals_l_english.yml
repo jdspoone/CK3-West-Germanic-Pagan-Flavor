@@ -22,3 +22,8 @@ funeral.1150.desc.intro: "Tradition demands that [deceased.GetFirstName]'s buria
 funeral.1150.desc.outro: "A slave kneels dejectedly before you. What shall [sacrificial_slave.GetHerHis] fate be?"
 funeral.1150.a: "Sacrifice the thrall"
 funeral.1150.b: "Spare the thrall"
+
+
+# Longship Barrow Mounty County Modifier
+longship_barrow_mound_county_modifier: "Longship Barrow Mound"
+longship_barrow_mound_county_modifier_desc: "A great barrow mound inspires fear and loyalty in the people of this county."

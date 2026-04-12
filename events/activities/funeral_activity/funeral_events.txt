@@ -675,10 +675,20 @@ funeral.0100 = {
 			add_activity_log_entry = {
 				key = funeral_conclusion_log
 				show_in_conclusion = yes
-				character = root 
+				character = root
 				root = {
+					# Give additional prestige and piety rewards
 					add_prestige = major_prestige_gain
 					add_piety = major_piety_gain
+
+					# Apply a positive modifier to the county the funeral was held in
+					location.county = {
+						add_county_modifier = {
+							modifier = longship_barrow_mound_county_modifier
+							years = 25
+						}
+					}
+
 					funeral_ending_rewards = yes
 				}
 			}
