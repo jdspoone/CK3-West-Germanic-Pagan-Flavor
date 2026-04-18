@@ -36,7 +36,6 @@
 		more_likely_to_be_laamps = yes
 	}
 	character_modifier = {
-		cultural_head_fascination_mult = -0.05
 		knight_limit = 1
 		prowess = 2
 		ai_boldness = 25
