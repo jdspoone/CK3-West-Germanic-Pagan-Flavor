@@ -35,7 +35,7 @@ gesithas = {
 	}
 	
 	counters = {
-		pikemen = 1
+		heavy_cavalry = 1
 		peasant_militia = 2
 		archers = 1
 	}
