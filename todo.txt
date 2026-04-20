@@ -48,13 +48,11 @@ Restore Hadrian's Wall decision
         -increased raid time
         -increased control gain
         -increased travel safety
+        -stationed men at arms toughness
 
 
 Improve Offa's Dyke decision
     -Increase fort level, bonuses to stationed MaA, travel safety...
-
-
-Screenshots for the Steam page
 
 
 Code Cleanup
