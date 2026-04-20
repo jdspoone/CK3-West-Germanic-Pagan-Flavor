@@ -14,7 +14,7 @@ Inspired by the ship burials at Sutton Hoo, Germanic faiths now have a new funer
 
 ### West Germanic / Eseist Related Decisions
 
-##### Eseism Conversion Decision
+#### Eseism Conversion Decision
 West Germanic Christian rulers whose primary title is within England or Scotland can convert via decision to Eseism. To assist with realm stability (primarily for underwhelming AI rulers), the ruler's capital county will receive a positive modifier and convert to Eseism as well, and the ruler will receive a small army of special soldiers. AI Rulers are required to be a Duke or an Independent Count, while no such restrictions apply to Player Characters. AI rulers have a chance of taking this decision depending on their personality and the cultural era.
 
 The historical record would indicate that Anglo-Saxon lords would intermittently renounce Christianity and re-embrace the Germanic faith well after the supposed wholesale adoption of Christianity. This decision attempts to model this in game. This should have the effect of creating a more dynamic political landscape within England and the lowlands of Scotland.
@@ -22,7 +22,7 @@ The historical record would indicate that Anglo-Saxon lords would intermittently
 #### Convert Canterbury Cathedral to a Germanic Temple
 Rulers of a Germanic faith can replace the Canterbury Cathedral with a Germanic Temple. An equivalent but inverted decision exists for Christian rulers to restore the Canterbury Cathedral to its original state.
 
-### Re-consecrate Winchester Minster as a Germanic Temple
+#### Re-consecrate Winchester Minster as a Germanic Temple
 If [Medieval Arts](https://steamcommunity.com/sharedfiles/filedetails/?id=2452585382) is in your modlist, rulers of a Germanic faith can re-consecrate the Winchester Minster as a Germanic Temple, allowing you to not only enjoy the fantastic 3D model by PiGu, but to reap the benefits of the special building without being of a Christian faith! An equivalent but inverted decision exists for Christian rulers to restore the Winchester Minster to its original state.
 
 #### Discover Norse Longships
