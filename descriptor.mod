@@ -1,12 +1,13 @@
-version="1.2.1"
+version="1.3.0"
 tags={
 	"Alternative History"
-	"Decisions"
-	"Religion"
 	"Culture"
-	"1.18 'Crane'"
+	"Decisions"
+	"History"
+	"Religion"
+	"1.19 'Scribe'"
 }
 name="West Germanic Pagan Flavor"
 picture="thumbnail.png"
-supported_version="1.18.*"
+supported_version="1.19.*"
 remote_file_id="3673551039"

@@ -42,3 +42,15 @@
 ## 1.2.1
 - Added new Eseist holy site at Ipswich
 - Tweaks to statistics of West Germanic specific Men-at-Arms
+
+## 1.3.0
+- Updated for 1.19.*
+- Reworked tenets and holy sites for Eseism
+- Germanic faiths now consider eachother Righteous instead of Astray
+- New Longship funeral tradition for Germanic faiths
+- Added decision to convert Canterbury Cathedral to a Germanic Temple
+- Added decision to re-consecrate Winchester Minster as a Germanic Temple (requires Medieval Arts)
+- Added decision to gain Longboats innovation through a North Germanic friend
+- West Germanic Warfare cultural tradition now enables recruitment of Huscarls
+- Gesitha MaA are now limited to 1 stack, similar to Varangian Veterans
+- Removed Fyrd Spearmen MaA and Fyrd Skirmishers MaA
