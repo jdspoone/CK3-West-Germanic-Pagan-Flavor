@@ -54,3 +54,6 @@
 - West Germanic Warfare cultural tradition now enables recruitment of Huscarls
 - Gesitha MaA are now limited to 1 stack, similar to Varangian Veterans
 - Removed Fyrd Spearmen MaA and Fyrd Skirmishers MaA
+
+## 1.3.1
+- Minor adjustments to Eseist holy site bonuses
