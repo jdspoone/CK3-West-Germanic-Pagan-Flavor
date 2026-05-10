@@ -20,6 +20,6 @@ edinburgh = {
 	character_modifier = {
 		name = holy_site_edinburgh_effect_name
 		monthly_piety_gain_mult = 0.2
-		controlled_province_advantage = 5
+		monthly_county_control_growth_factor = 0.05
 	}
-}s
+}
