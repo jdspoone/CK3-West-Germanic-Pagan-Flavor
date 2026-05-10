@@ -1,5 +1,9 @@
+Change the name of the Mod to Germanic Flavor
+    -The scope has spread from West Germanics, and is now broadly a Germanic (culture) and Germanic (religion) flavor mod...
+    
+
 Special building conversion decisions
-    -Improve statistics of Canterbury Temple
+    -Canterbury Temple should have multiple levels similar to the Cathedral
     -Enable AI rulers to use special building conversion decisions
     -Taking the decision should also grant a large piety bonus
 
@@ -14,17 +18,20 @@ New unique formable Hegemony?
 
 
 Longship Funeral Tradition
+    -Increase the cost to balance out the new benefits
     -There already exists an event to sacrifice an artifact at the funeral...
         -Create another version of this event, limiting availability to longship funerals, extra rewards?
 
 
-West Germanic Warfare cultural tradition
-    -Generate custom graphics
-        -illustration for West Germanic Warefare cultural tradition
-        -illustrtions/icons for new MaA types
-
+New Cultural Traditions
+    -Rename West Germanic Warfare
+        -Mannerbund?
+    -Replace/extend Witenmot
+    
 
 Improvements to Eseism conversion decision
+    -Create custom tooltip for courtiers and vassals converting, as opposed to it just listing them all out...
+    -Prevent decision being taken if Eseism has been reformed
     -Size of granted army should be a function of the realm size of the ruler converting
 
 
@@ -53,6 +60,8 @@ Restore Hadrian's Wall decision
 
 Improve Offa's Dyke decision
     -Increase fort level, bonuses to stationed MaA, travel safety...
+    -Requires holding the duchy of Mercia, prestigious, sufficient gold
+    -Dramatically worsens cultural acceptance with the Welsh, relations with nearby Welsh rulers...
 
 
 Code Cleanup
