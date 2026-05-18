@@ -30,7 +30,6 @@ New Cultural Traditions
     
 
 Improvements to Eseism conversion decision
-    -Create custom tooltip for courtiers and vassals converting, as opposed to it just listing them all out...
     -Prevent decision being taken if Eseism has been reformed
     -Size of granted army should be a function of the realm size of the ruler converting
 

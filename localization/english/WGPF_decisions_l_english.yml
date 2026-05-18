@@ -8,6 +8,7 @@ eseism_conversion_decision_confirm: "Return to the Old Gods"
 
 eseism_conversion_county_culture_req_tooltip: "Your capital county's Culture must have West Germanic Heritage"
 eseism_conversion_location_req_tooltip: "Your primary title is within the de jure Kingdom of England or Scotland"
+eseism_conversion_vassal_courtier_tooltip: "Every non-Zealous vassal and courtier converts to $west_germanic_pagan$"
 
 eseism_conversion_event_title: "Converted to Eseism"
 eseism_conversion_event_desc: "I have cast aside the Christian faith and embraced of the old gods of my people!"

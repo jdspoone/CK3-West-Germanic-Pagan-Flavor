@@ -69,23 +69,27 @@
     }
 
     effect = {
-        # The ruler converts to saxon paganism
+        # The ruler converts to Eseism
         set_character_faith = faith:west_germanic_pagan
 
-        # Every non-zealous vassal converts
-        every_vassal = {
-            limit = {
-                NOT = { has_trait = zealous}
-            }
-            set_character_faith = faith:west_germanic_pagan
-        }
+        custom_tooltip = {
+            text = eseism_conversion_vassal_courtier_tooltip
 
-        # All non-zealous courtiers will convert as well
-        every_courtier = {
-            limit = {
-                NOT = { has_trait = zealous }
+            # Every non-zealous vassal converts
+            every_vassal = {
+                limit = {
+                    ai_zeal < high_positive_ai_value                
+                }
+                set_character_faith = faith:west_germanic_pagan
             }
-            set_character_faith = faith:west_germanic_pagan
+
+            # All non-zealous courtiers will convert as well
+            every_courtier = {
+                limit = {
+                    ai_zeal < high_positive_ai_value                
+                }
+                set_character_faith = faith:west_germanic_pagan
+            }
         }
 
         # Convert the faith of the ruler's capital county, and apply a positive county modifier
