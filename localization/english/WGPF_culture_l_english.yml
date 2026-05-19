@@ -9,6 +9,8 @@ tradition_west_germanic_warfare_desc: "Where has the horse gone? Where the man? 
 tradition_west_germanic_governance_name: "West Germanic Governance"
 tradition_west_germanic_governance_desc: "West Germanic Governance Description..."
 
+culture_parameter_generous_trait_more_valued: "The [GetTrait('generous').GetName( GetNullCharacter )] [trait|E] is more valued"
+
 
 # West Germanic Men-at-Arms
 gesithas: "Gesithas"
