@@ -60,7 +60,7 @@ canterbury_cathedral_germanic_conversion_decision = {
 
 
     cost = {
-        gold = 1250
+        gold = 500
         prestige = 500
     }
 
@@ -73,21 +73,22 @@ canterbury_cathedral_germanic_conversion_decision = {
                     has_building = holy_site_canterbury_cathedral_01
                 }
                 remove_building = holy_site_canterbury_cathedral_01
+                add_special_building = WGPF_canterbury_cathedral_01
             }
             else_if = {
                 limit = {
                     has_building = holy_site_canterbury_cathedral_02
                 }
                 remove_building = holy_site_canterbury_cathedral_02
+                add_special_building = WGPF_canterbury_cathedral_02
             }
             else_if = {
                 limit = {
                     has_building = holy_site_canterbury_cathedral_03
                 }
                 remove_building = holy_site_canterbury_cathedral_03
+                add_special_building = WGPF_canterbury_cathedral_03
             }
-
-            add_special_building = WGPF_canterbury_temple
         }
 
         # Present an event panel for the player
@@ -123,7 +124,11 @@ canterbury_cathedral_christian_conversion_decision = {
 
         # The Germanic Temple at Canterbury exists
         title:b_canterbury.title_province = {
-            has_building = WGPF_canterbury_temple
+            OR = {
+                has_building = WGPF_canterbury_cathedral_01
+                has_building = WGPF_canterbury_cathedral_02
+                has_building = WGPF_canterbury_cathedral_03
+            }
         }
     }
 
@@ -147,7 +152,7 @@ canterbury_cathedral_christian_conversion_decision = {
 
 
     cost = {
-        gold = 1250
+        gold = 500
         prestige = 500
     }
 
@@ -155,8 +160,27 @@ canterbury_cathedral_christian_conversion_decision = {
     effect = {
         # Replace the Temple of Canterbury with the first level of the Canterbury Cathedral
         title:b_canterbury.title_province = {
-            remove_building = WGPF_canterbury_temple
-            add_special_building = holy_site_canterbury_cathedral_01
+            if = {
+                limit = {
+                    has_building = WGPF_canterbury_cathedral_01
+                }
+                remove_building = WGPF_canterbury_cathedral_01
+                add_special_building = holy_site_canterbury_cathedral_01
+            }
+            else_if = {
+                limit = {
+                    has_building = WGPF_canterbury_cathedral_02
+                }
+                remove_building = WGPF_canterbury_cathedral_02
+                add_special_building = holy_site_canterbury_cathedral_02
+            }
+            else_if = {
+                limit = {
+                    has_building = WGPF_canterbury_cathedral_03
+                }
+                remove_building = WGPF_canterbury_cathedral_03
+                add_special_building = holy_site_canterbury_cathedral_03
+            }
         }
 
         # Present an event panel for the player

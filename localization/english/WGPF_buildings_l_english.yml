@@ -1,10 +1,31 @@
 ﻿l_english:
 
-# Converted Canterbury Cathedral
+# DEPRECATED - Converted Canterbury Cathedral
 building_type_WGPF_canterbury_temple: "$building_WGPF_canterbury_temple$"
 building_type_WGPF_canterbury_temple_desc: "$building_WGPF_canterbury_temple_desc$"
 building_WGPF_canterbury_temple: "Temple of Canterbury"
 building_WGPF_canterbury_temple_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
+
+# Converted Canterbury Cathedral level 1
+building_type_WGPF_canterbury_cathedral_01: "$building_WGPF_canterbury_cathedral_01$"
+building_type_WGPF_canterbury_cathedral_01_desc: "$building_WGPF_canterbury_cathedral_01_desc$"
+building_WGPF_canterbury_cathedral_01: "Temple of Canterbury"
+building_WGPF_canterbury_cathedral_01_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
+
+
+# Converted Canterbury Cathedral level 2
+building_type_WGPF_canterbury_cathedral_02: "$building_WGPF_canterbury_cathedral_02$"
+building_type_WGPF_canterbury_cathedral_02_desc: "$building_WGPF_canterbury_cathedral_02_desc$"
+building_WGPF_canterbury_cathedral_02: "Temple of Canterbury"
+building_WGPF_canterbury_cathedral_02_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
+
+
+# Converted Canterbury Cathedral level 3
+building_type_WGPF_canterbury_cathedral_03: "$building_WGPF_canterbury_cathedral_03$"
+building_type_WGPF_canterbury_cathedral_03_desc: "$building_WGPF_canterbury_cathedral_03_desc$"
+building_WGPF_canterbury_cathedral_03: "Temple of Canterbury"
+building_WGPF_canterbury_cathedral_03_desc: "Erected on the site of the former cathedral, this enormous temple honors the Gods and commemorates the establishment of the first Germanic kingdom in Britain by Hengist and his fallen brother Horsa."
+
 
 # Converted Winchester Minster
 building_type_WGPF_winchester_temple: "$building_WGPF_winchester_temple$"
