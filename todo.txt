@@ -3,7 +3,7 @@ Change the name of the Mod to Germanic Flavor
     
 
 Special building conversion decisions
-    -Canterbury Temple should have multiple levels similar to the Cathedral
+    -Improve flavor text and benefits for Canterbury Temple at different levels
     -Enable AI rulers to use special building conversion decisions
     -Taking the decision should also grant a large piety bonus
 
@@ -23,10 +23,15 @@ Longship Funeral Tradition
         -Create another version of this event, limiting availability to longship funerals, extra rewards?
 
 
-New Cultural Traditions
-    -Rename West Germanic Warfare
+Changes to Cultural Traditions
+    -Better name for West Germanic Warfare
         -Mannerbund?
-    -Replace/extend Witenmot
+
+    -Better name for West Germanic Governance
+        -The Pleasures of the Hall?
+
+    -Combine West Germanic Warfare and Governance into a single tradition?
+        -the separation does seem a little contrived...
     
 
 Improvements to Eseism conversion decision

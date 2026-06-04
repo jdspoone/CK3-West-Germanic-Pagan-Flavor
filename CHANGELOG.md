@@ -57,3 +57,10 @@
 
 ## 1.3.1
 - Minor adjustments to Eseist holy site bonuses
+
+## 1.3.2
+- Added West Germanic Governance cultural tradition, which replaces Witengamot for Anglo-Saxon culture
+- Replace City-Keeper tradition with Refined Poetry tradition for Anglo-Saxon culture
+- Added Generous as a virtue for Germanic religions
+- Improvements to Eseism conversion decision mechanics and flavor text
+- Germanic Canterbury Temple now has 3 levels similar to the Christian Canterbury Cathedral

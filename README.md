@@ -3,8 +3,10 @@ A simple mod attempting to add a bit more flavour for West Germanics (i.e. Anglo
 
 ## Current Features
 
-### **West Germanic Warfare** - New Cultural Tradition
-West Germanic cultures now have access to a new cultural tradition **West Germanic Warfare**, which is used in place of **Hirds** for the Anglo-Saxon culture. This cultural tradition unlocks recruitment Huscarls and Gesitha, a new Heavy Infantry unit roughly equivalent to Varangian Veterans.
+### New Cultural Traditions
+West Germanic cultures now have access to the following new cultural traditions: 
+- **West Germanic Warfare** replaces **Hirds** for Anglo-Saxon culture, which unlocks recruitment Huscarls and Gesitha, a new Heavy Infantry unit broadly equivalent to Varangian Veterans.
+- **West Germanic Governance** replaces **Witengamot** for Anglo-Saxon culture, which unlocks the Saxon Elective and gives additional bonues to the Loyal and Generous traits.
 
 ### **Eseism** - New West Germanic Pagan Faith 
 Inspired by [The Fallen Eagle](https://steamcommunity.com/workshop/filedetails/?id=2243307127), this mod adds a new West Germanic pagan faith, **Eseism**, within the broader Germanic Religion.
