@@ -7,7 +7,7 @@ tradition_west_germanic_warfare_desc: "Where has the horse gone? Where the man? 
 
 # West Germanic Governance Cultural Tradition
 tradition_west_germanic_governance_name: "West Germanic Governance"
-tradition_west_germanic_governance_desc: "West Germanic Governance Description..."
+tradition_west_germanic_governance_desc: "That is how a kinsman ought to behave, not spreading for others nets of treachery, plotting the death of near companions. His nephew was loyal always to Hygelac, the hard in strife, each kinsman thought of the other's comfort."
 
 culture_parameter_generous_trait_more_valued: "The [GetTrait('generous').GetName( GetNullCharacter )] [trait|E] is more valued"
 
