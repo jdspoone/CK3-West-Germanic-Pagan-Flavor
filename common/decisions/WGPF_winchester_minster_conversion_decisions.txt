@@ -46,7 +46,7 @@ winchester_minster_germanic_conversion_decision = {
 
 
     cost = {
-        gold = 1000
+        gold = 500
         prestige = 500        
     }
 
@@ -115,7 +115,7 @@ winchester_minster_christian_conversion_decision = {
 
 
     cost = {
-        gold = 1000
+        gold = 500
         prestige = 500        
     }
 
