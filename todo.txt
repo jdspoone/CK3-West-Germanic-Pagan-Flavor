@@ -1,6 +1,17 @@
 Change the name of the Mod to Germanic Flavor
     -The scope has spread from West Germanics, and is now broadly a Germanic (culture) and Germanic (religion) flavor mod...
-    
+
+
+Pattern-Welded Forging
+    -new innovation available to Western European cultures
+        -West/Northern/Central Germanics, Brythonic, Goidelic, Frankish heritage cultures
+    -benefits broadly comparable to Wootz Steel innovation
+
+
+Adjust costs associated with Eseism conversion decision
+    -if lowest level of piety, negligible cost
+    -otherwise increasing cost with each primary title tier rank
+
 
 Special building conversion decisions
     -Improve flavor text and benefits for Canterbury Temple at different levels
@@ -50,16 +61,6 @@ Spread Eseism throughout the realm decision
 Decision to create an Eseist version of the Jomsvikings...
     -name pending...
     -modify the existing Jomsviking decision to restrict it to Asatru characters, not just unreformed Germanics...
-
-
-Restore Hadrian's Wall decision
-    -Control the Duchy of Northumbria
-    -Replace wall special building with a new special building that gives:
-        -increased fort level
-        -increased raid time
-        -increased control gain
-        -increased travel safety
-        -stationed men at arms toughness
 
 
 Improve Offa's Dyke decision

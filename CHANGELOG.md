@@ -64,3 +64,9 @@
 - Added Generous as a virtue for Germanic religions
 - Improvements to Eseism conversion decision mechanics and flavor text
 - Germanic Canterbury Temple now has 3 levels similar to the Christian Canterbury Cathedral
+
+## 1.3.3
+- Increased piety cost for Eseism conversion decision, with additional cost scaling for highest held title tier
+- Removed prestige cost for Eseism conversion decision
+- Added Pattern Welded Forging cultural innovation for Germanic, Brythonic, Goidelic, Frankish, and West Slavic heritage cultures
+- Minor improvements/fixes to localization text throughout
