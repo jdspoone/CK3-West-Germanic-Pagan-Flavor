@@ -64,9 +64,33 @@
     }
 
     cost = {
-        piety = 150
-        prestige = 150
+        piety = {
+            value = 250
+
+            # The piety cost will be negligible if the character has the lowest level of devotion
+            if = {
+                limit = { piety_level = 0 }
+                multiply = 0.2
+            }
+
+            # Otherwise the piety cost will increase for every title tier above county level
+            if = {
+                limit = { highest_held_title_tier = tier_duchy }
+                multiply = 2
+            }
+
+            if = {
+                limit = { highest_held_title_tier = tier_kingdom }
+                multiply = 4
+            }
+
+            if = {
+                limit = { highest_held_title_tier >= tier_empire }
+                multiply = 8
+            }
+        }
     }
+    
 
     effect = {
         # The ruler converts to Eseism
