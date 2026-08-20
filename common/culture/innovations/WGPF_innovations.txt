@@ -1,0 +1,20 @@
+﻿@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+
+WGPF_innovation_pattern_welded_forging = {
+	skill = learning
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	region = world_europe_west
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		prowess = 1
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}

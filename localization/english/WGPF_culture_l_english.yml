@@ -17,3 +17,8 @@ gesithas: "Gesithas"
 gesithas_flavor: "#F Gesithas are a lord's sworn companions, and form the elite of Germanic armies.#!"
 
 culture_parameter_unlock_maa_gesithas: "Can recruit [GetMaA('gesithas').GetName] as [men_at_arms|E]"
+
+
+# Innovations
+WGPF_innovation_pattern_welded_forging: "Pattern Welded Forging"
+WGPF_innovation_pattern_welded_forging_desc: "The Celtic and Germanic peoples pioneered the technique of Pattern Welding, producing swords of comparable quality to Damascus Steel blades from the East."

@@ -1,6 +1,7 @@
 ﻿on_game_start = {
 	on_actions = {
 		update_west_germanic_traditions
+        unlock_pattern_welded_forging
 	}
 }
 
@@ -40,4 +41,27 @@ update_west_germanic_traditions = {
 			}
 		}
 	}
+}
+
+
+unlock_pattern_welded_forging = {
+    effect = {
+        every_culture_global = {
+            if = {
+                limit = {
+                    OR = {
+                        has_cultural_pillar = heritage_west_germanic
+                        has_cultural_pillar = heritage_north_germanic
+                        has_cultural_pillar = heritage_central_germanic
+                        has_cultural_pillar = heritage_brythonic
+                        has_cultural_pillar = heritage_goidelic
+                        has_cultural_pillar = heritage_frankish
+                        has_cultural_pillar = heritage_west_slavic   
+                    }
+                }
+
+                add_innovation = WGPF_innovation_pattern_welded_forging
+            }
+        }
+    }
 }
